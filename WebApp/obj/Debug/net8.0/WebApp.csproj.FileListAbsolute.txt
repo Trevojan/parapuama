@@ -59,3 +59,34 @@ C:\Users\Lych o Imortal\source\repos\parapuama\WebApp\obj\Debug\net8.0\refint\We
 C:\Users\Lych o Imortal\source\repos\parapuama\WebApp\obj\Debug\net8.0\WebApp.pdb
 C:\Users\Lych o Imortal\source\repos\parapuama\WebApp\obj\Debug\net8.0\WebApp.genruntimeconfig.cache
 C:\Users\Lych o Imortal\source\repos\parapuama\WebApp\obj\Debug\net8.0\ref\WebApp.dll
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\appsettings.Development.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\appsettings.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\WebApp.staticwebassets.runtime.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\WebApp.exe
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\WebApp.deps.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\WebApp.runtimeconfig.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\WebApp.dll
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\bin\Debug\net8.0\WebApp.pdb
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfoInputs.cache
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfo.cs
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.csproj.CoreCompileInputs.cache
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cache
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.RazorAssemblyInfo.cs
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\staticwebassets.build.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\staticwebassets.development.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApp.props
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApp.props
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApp.props
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\scopedcss\bundle\WebApp.styles.css
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\scopedcss\projectbundle\WebApp.bundle.scp.css
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.dll
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\refint\WebApp.dll
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.pdb
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\WebApp.genruntimeconfig.cache
+D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\obj\Debug\net8.0\ref\WebApp.dll

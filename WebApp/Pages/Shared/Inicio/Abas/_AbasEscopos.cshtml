@@ -1,19 +1,96 @@
 ﻿<div class="card container-fluid">
     <div class="row align-items-start">
-        <div class="col card-body col-3">
-            <div class="list-group">
-                <a class="btn list-group-item list-group-item-action list-group-item-info">A simple info list group item</a>
-                <a class="btn list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
-                <a class="btn list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
-                <a class="btn list-group-item list-group-item-action list-group-item-warning">A simple warning list group item</a>
-                <a class="btn list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
+        <div class="col card-body">
+            <div class="list-group col-2">
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-info"
+                   data-bs-toggle="collapse" href="#collapseDevSoft"
+                   aria-expanded="false" aria-controls="collapseDevSoft">
+                   Desenvolvimento de Software</a>
+
+                <a class="btn list-group-item list-group-item-action list-group-item-primary"
+                   data-bs-toggle="collapse" href="#collapsePalestra"
+                   aria-expanded="false" aria-controls="collapsePalestra">
+                   Palestra ao Vivo</a>
+
+                <a class="btn list-group-item list-group-item-action list-group-item-danger"
+                   data-bs-toggle="collapse" href="#collapseMarket"
+                   aria-expanded="false" aria-controls="collapseMarket">
+                   Estratégia de Marketing</a>
+
+                <a class="btn list-group-item list-group-item-action list-group-item-warning"
+                   data-bs-toggle="collapse" href="#collapseAula"
+                   aria-expanded="false" aria-controls="collapseAula">
+                   Apresentação em Sala de Aula</a>
+
+                <a class="btn list-group-item list-group-item-action list-group-item-success"
+                   data-bs-toggle="collapse" href="#collapseStats"
+                   aria-expanded="false" aria-controls="collapseStats">
+                   Análise Estatística</a>
             </div>
         </div>
-        <div class="col card-body col-8">
-            <div class="mt-1 ms-5">
+
+        <div class="collapse collapse-horizontal" id="collapseDevSoft">
+            <div class="col card-body col-8">
+                <div class="card-body border border-secondary mt-1 ms-5">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                    <div class="footer">
+                        <button class="btn btn-primary">Criar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse collapse-horizontal" id="collapsePalestra">
+            <div class="card-body border border-secondary mt-1 ms-5">
                 <h4 class="card-title">Title</h4>
                 <p class="card-text">Text</p>
+                <div class="footer">
+                    <button class="btn btn-primary">Criar</button>
+                </div>
             </div>
         </div>
+
+        <div class="collapse collapse-horizontal" id="collapseMarket">
+            <div class="card-body border border-secondary mt-1 ms-5">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+                <div class="footer">
+                    <button class="btn btn-primary">Criar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse collapse-horizontal" id="collapseAula">
+            <div class="card-body border border-secondary mt-1 ms-5">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+                <div class="footer">
+                    <button class="btn btn-primary">Criar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="collapse collapse-horizontal" id="collapseStats">
+            <div class="card-body border border-secondary mt-1 ms-5">
+                <h4 class="card-title">Title</h4>
+                <p class="card-text">Text</p>
+                <div class="footer">
+                    <button class="btn btn-primary">Criar</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<p class="d-inline-flex gap-1">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Button with data-bs-target
+    </button>
+</p>
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
     </div>
 </div>
