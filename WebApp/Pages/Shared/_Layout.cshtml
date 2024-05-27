@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebApp.styles.css" asp-append-version="true" />
 </head>
-<body class="bg-primary bg-gradient">
+
+<body class="m-5 bg-primary bg-gradient rounded-4">
+
     <header>
         <partial name="Cabecalho/_BarraNav">
     </header>
 
-    <div class="container border border-secondary bg-light">
+    <div class="container-fluid bg-white rounded">
         <main role="main">
             @RenderBody()
         </main>
@@ -26,5 +28,7 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
+
 </html>
