@@ -8,23 +8,25 @@
     "net8.0": []
   },
   "packageFolders": {
-    "D:\\Users\\eros_benkert\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Lych o Imortal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\eros_benkert\\source\\repos\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "D:\\Users\\eros_benkert\\source\\repos\\WebApp\\WebApp.csproj",
-      "packagesPath": "D:\\Users\\eros_benkert\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\eros_benkert\\source\\repos\\WebApp\\obj\\",
+      "projectPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
+      "packagesPath": "C:\\Users\\Lych o Imortal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "D:\\Users\\eros_benkert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lych o Imortal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +77,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
