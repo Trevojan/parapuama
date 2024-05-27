@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\eros_benkert\\source\\repos\\WebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\source\\repos\\webapp\\pages\\shared\\novaconta\\_cardcorpo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\novaconta\\_cardcorpo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\shared\\rodape\\_rodape.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\rodape\\_rodape.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\shared\\inicio\\abas\\_abasnovidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\inicio\\abas\\_abasnovidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_CardCorpo.cshtml",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\source\\repos\\WebApp\\Pages\\Shared\\NovaConta\\_CardCorpo.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\NovaConta\\_CardCorpo.cshtml",
-              "ToolTip": "D:\\Users\\eros_benkert\\source\\repos\\WebApp\\Pages\\Shared\\NovaConta\\_CardCorpo.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\NovaConta\\_CardCorpo.cshtml",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T15:55:16.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Error.cshtml",
+              "RelativeToolTip": "Pages\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-23T19:33:34.433Z",
+              "WhenOpened": "2024-05-25T15:55:11.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Rodape.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Rodape\\_Rodape.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\Rodape\\_Rodape.cshtml",
+              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Rodape\\_Rodape.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\Rodape\\_Rodape.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T14:54:35.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_AbasNovidades.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
+              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T14:32:00.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Inicio.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Inicio.cshtml",
+              "RelativeToolTip": "Pages\\Inicio.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T11:33:21.258Z",
               "EditorCaption": ""
             }
           ]
