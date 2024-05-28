@@ -1,0 +1,28 @@
+projetos
+CONSTRAINT [fkParticipantes] FOREIGN KEY ([idParticipantes]) REFERENCES [tbParticipantes]([idProjeto]), 
+CONSTRAINT [fkFerramentas] FOREIGN KEY ([idFerramentas]) REFERENCES [tbUtilizando]([idProjeto]), 
+CONSTRAINT [fkQuadros] FOREIGN KEY ([idQuadros]) REFERENCES [tbEnquadrado]([idProjeto]),
+CONSTRAINT [fkIdeias] FOREIGN KEY ([idIdeias]) REFERENCES [tbIdealizado]([idProjeto]),
+CONSTRAINT [fkObjetivos] FOREIGN KEY ([idObjetivos]) REFERENCES [tbDirecionado]([idObjetivo]),
+
+direcionado
+CONSTRAINT [fkObjetivo] FOREIGN KEY ([idObjetivo]) REFERENCES [tbObjetivos]([idObjetivo]), 
+CONSTRAINT [fkProjetoO] FOREIGN KEY ([idProjeto]) REFERENCES [tbProjetos]([idProjeto]),
+
+enquadrado
+CONSTRAINT [fkQuadro] FOREIGN KEY ([idQuadro]) REFERENCES [tbQuadros]([idQuadro]), 
+CONSTRAINT [fkProjetoQ] FOREIGN KEY ([idProjeto]) REFERENCES [tbProjetos]([idProjeto]),
+
+utilizando
+
+
+CONSTRAINT [fkFerramenta] FOREIGN KEY ([idFerramenta]) REFERENCES [tbFerramentas]([idFerramenta]), 
+CONSTRAINT [fkProjetoF] FOREIGN KEY ([idProjeto]) REFERENCES [tbProjetos]([idProjeto]),
+
+participante
+CONSTRAINT [fkUsuario] FOREIGN KEY ([idUsuario]) REFERENCES [tbUsuarios]([idUsuario]), 
+CONSTRAINT [fkProjetoU] FOREIGN KEY ([idProjeto]) REFERENCES [tbProjetos]([idProjeto]),
+
+idealizado
+CONSTRAINT [fkIdeia] FOREIGN KEY ([idIdeias]) REFERENCES [tbIdealizacao]([idIdeia]), 
+CONSTRAINT [fkProjetoI] FOREIGN KEY ([idProjeto]) REFERENCES [tbProjetos]([idProjeto]),
