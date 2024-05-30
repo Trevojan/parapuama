@@ -1,32 +1,38 @@
 ﻿<div class="card container-fluid">
-    <div class="row align-items-start">
-        <div class="col card-body">
-            <div class="list-group col-2">
-                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-info"
-                   data-bs-toggle="collapse" href="#collapseDevSoft"
-                   aria-expanded="false" aria-controls="collapseDevSoft">
-                   Desenvolvimento de Software</a>
+    <div class="align-items-start">
+        <div class="card-body row">
+            <div class="col col-4 list-group">
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-primary"
+                   role="button" data-bs-toggle="collapse" data-bs-target="#flush-escopoDevSoft"
+                   aria-expanded="false" aria-controls="flush-escopoDevSoft">
+                    Desenvolvimento de Software
+                </a>
 
-                <a class="btn list-group-item list-group-item-action list-group-item-primary"
-                   data-bs-toggle="collapse" href="#collapsePalestra"
-                   aria-expanded="false" aria-controls="collapsePalestra">
-                   Palestra ao Vivo</a>
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-success"
+                   role="button" data-bs-toggle="collapse" data-bs-target="#flush-escopoPalestra"
+                   aria-expanded="false" aria-controls="flush-escopoPalestra">
+                    Palestra ao Vivo
+                </a>
 
-                <a class="btn list-group-item list-group-item-action list-group-item-danger"
-                   data-bs-toggle="collapse" href="#collapseMarket"
-                   aria-expanded="false" aria-controls="collapseMarket">
-                   Estratégia de Marketing</a>
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-warning"
+                   role="button" data-bs-toggle="collapse" data-bs-target="#flush-escopoMarket"
+                   aria-expanded="false" aria-controls="flush-escopoMarket">
+                    Estratégia de Marketing
+                </a>
 
-                <a class="btn list-group-item list-group-item-action list-group-item-warning"
-                   data-bs-toggle="collapse" href="#collapseAula"
-                   aria-expanded="false" aria-controls="collapseAula">
-                   Apresentação em Sala de Aula</a>
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-danger" role="button"
+                   data-bs-toggle="collapse" data-bs-target="#flush-escopoAula" aria-expanded="false"
+                   aria-controls="flush-escopoAula">
+                    Apresentação em Sala de Aula
+                </a>
 
-                <a class="btn list-group-item list-group-item-action list-group-item-success"
-                   data-bs-toggle="collapse" href="#collapseStats"
-                   aria-expanded="false" aria-controls="collapseStats">
-                   Análise Estatística</a>
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-info" role="button"
+                   data-bs-toggle="collapse" data-bs-target="#flush-escopoStats" aria-expanded="false"
+                   aria-controls="flush-escopoStats">
+                    Análise Estatística
+                </a>
             </div>
+<<<<<<< Updated upstream
         </div>
 
         <div class="collapse collapse-horizontal" id="collapseDevSoft">
@@ -36,61 +42,110 @@
                     <p class="card-text">Text</p>
                     <div class="footer">
                         <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalNovoProjeto">Criar</a>
+=======
+            <div class="col col-8 accordion accordion-flush" id="accordionEscopos">
+                <div class="accordion-item">
+                    <div id="flush-escopoDevSoft" class="accordion-collapse collapse"
+                         data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-primary">Título</h2>
+                            <div class="card-body border border-secondary mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button class="btn btn-success me-3">Criar</button>
+                                        <button class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoPalestra" class="accordion-collapse collapse"
+                         data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-success">Título</h2>
+                            <div class="card-body border border-secondary mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoMarket" class="accordion-collapse collapse"
+                         data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-warning">Título</h2>
+                            <div class="card-body border border-secondary mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoAula" class="accordion-collapse collapse"
+                         data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-danger">Título</h2>
+                            <div class="card-body border border-secondary mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoStats" class="accordion-collapse collapse"
+                         data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-info">Título</h2>
+                            <div class="card-body border border-secondary mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    Placeholder content for this accordion, which is intended to demonstrate the
+                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="collapse collapse-horizontal" id="collapsePalestra">
-            <div class="card-body border border-secondary mt-1 ms-5">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-                <div class="footer">
-                    <button class="btn btn-primary">Criar</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="collapse collapse-horizontal" id="collapseMarket">
-            <div class="card-body border border-secondary mt-1 ms-5">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-                <div class="footer">
-                    <button class="btn btn-primary">Criar</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="collapse collapse-horizontal" id="collapseAula">
-            <div class="card-body border border-secondary mt-1 ms-5">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-                <div class="footer">
-                    <button class="btn btn-primary">Criar</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="collapse collapse-horizontal" id="collapseStats">
-            <div class="card-body border border-secondary mt-1 ms-5">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-                <div class="footer">
-                    <button class="btn btn-primary">Criar</button>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<p class="d-inline-flex gap-1">
-    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Button with data-bs-target
-    </button>
-</p>
-<div class="collapse" id="collapseExample">
-    <div class="card card-body">
-        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
     </div>
 </div>
