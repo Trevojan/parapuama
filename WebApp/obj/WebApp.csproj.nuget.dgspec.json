@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
@@ -15,6 +16,27 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eros_benkert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
+        "projectName": "WebApp",
+        "projectPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\Lych o Imortal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lych o Imortal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

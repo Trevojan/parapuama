@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "I9C6LOisg/A=",
   "success": true,
   "projectFilePath": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
@@ -80,5 +81,11 @@
     "C:\\Users\\eros_benkert\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\eros_benkert\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "CmjxtRg1sBM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> Stashed changes
   "logs": []
 }
