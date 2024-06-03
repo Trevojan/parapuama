@@ -1,45 +1,18 @@
 {
   "Version": 1,
-<<<<<<< Updated upstream
-  "WorkspaceRootPath": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\",
+  "WorkspaceRootPath": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\shared\\projetos\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\projetos\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\shared\\projetos\\_canvasmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\projetos\\_canvasmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\shared\\inicio\\abas\\_abasescopos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\pages\\shared\\inicio\\abas\\_abasescopos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\inicio\\abas\\_abasescopos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-=======
-  "WorkspaceRootPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\shared\\inicio\\abas\\_abasescopos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\inicio\\abas\\_abasescopos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\pages\\inicio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\inicio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\shared\\inicio\\abas\\_abasnovidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\inicio\\abas\\_abasnovidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\shared\\inicio\\_iniciobemvindo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\inicio\\_iniciobemvindo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\lych o imortal\\source\\repos\\parapuama\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\projetos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\projetos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,123 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-<<<<<<< Updated upstream
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Criar.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Projetos\\Criar.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\Projetos\\Criar.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Projetos\\Criar.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\Projetos\\Criar.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T23:02:14.427Z",
-              "EditorCaption": ""
-=======
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_AbasEscopos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
               "RelativeToolTip": "Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAYwIsAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T19:25:37.01Z",
+              "WhenOpened": "2024-06-03T20:03:03.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_AbasNovidades.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
-              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\Inicio\\Abas\\_AbasNovidades.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T19:23:46.179Z"
->>>>>>> Stashed changes
+              "Title": "Inicio.cshtml.cs",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Inicio.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Inicio.cshtml.cs",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Inicio.cshtml.cs",
+              "RelativeToolTip": "Pages\\Inicio.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T19:55:44.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-<<<<<<< Updated upstream
-              "Title": "_AbasEscopos.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAACUAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T23:00:06.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_CanvasMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Projetos\\_CanvasMenu.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\Projetos\\_CanvasMenu.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Projetos\\_CanvasMenu.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\Projetos\\_CanvasMenu.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T22:45:55.867Z",
-              "EditorCaption": ""
-=======
-              "Title": "_InicioBemVindo.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\_InicioBemVindo.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\Inicio\\_InicioBemVindo.cshtml",
-              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\_InicioBemVindo.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\Inicio\\_InicioBemVindo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T19:15:30.918Z"
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-<<<<<<< Updated upstream
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-=======
-              "DocumentMoniker": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\_Layout.cshtml",
->>>>>>> Stashed changes
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-<<<<<<< Updated upstream
-              "WhenOpened": "2024-05-29T22:44:35.898Z",
+              "WhenOpened": "2024-06-03T19:36:49.52Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Projetos.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Projetos.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Projetos.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Projetos.cshtml",
-              "RelativeToolTip": "Pages\\Projetos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T22:44:29.094Z",
-              "EditorCaption": ""
-=======
-              "WhenOpened": "2024-05-27T18:07:48.728Z"
->>>>>>> Stashed changes
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

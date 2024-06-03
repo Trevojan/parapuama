@@ -40,14 +40,16 @@
                             <h2 class="ps-lg-5 accordion-header text-primary">Título</h2>
                             <div class="card-body border border-secondary mt-1 ms-5 rounded-5 p-4">
                                 <p class="card-text">
-                                    Placeholder content for this accordion, which is intended to demonstrate the
-                                    <code>.accordion-flush</code> class. This is the first item's accordion body.
+                                    @model InicioModel
+                                    @{
+                                        @TextWriter.;
+                                     }
                                 </p>
                                 <div class="footer d-flex">
                                     <div class="ms-auto">
-                                        <partial name="Novo/_NovoCorpo"/>
-                                        <a class="btn btn-success me-3 nav-link text-dark" data-bs-toggle="modal"
-                                            data-bs-target="#ModalNovoProjeto" asp-area="" asp-page="">Criar</a>
+                                        <partial name="Projetos/Novo/_NovoCorpo"/>
+                                        <button class="btn btn-success me-3" data-bs-toggle="modal"
+                                            data-bs-target="#ModalNovoProjeto">Criar</button>
                                         <button class="btn btn-warning">Favoritar</button>
                                     </div>
                                 </div>

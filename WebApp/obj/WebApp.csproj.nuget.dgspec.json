@@ -1,42 +1,24 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\WebApp.csproj": {}
+    "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\WebApp.csproj": {
+    "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\eros_benkert\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\eros_benkert\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
-        "projectName": "WebApp",
-        "projectPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\Lych o Imortal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lych o Imortal\\source\\repos\\parapuama\\WebApp\\obj\\",
+        "projectPath": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\WebApp.csproj",
+        "packagesPath": "D:\\Users\\eros_benkert\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lych o Imortal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\eros_benkert\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
