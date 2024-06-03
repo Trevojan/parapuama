@@ -1,4 +1,13 @@
-﻿<div class="card container-fluid">
+﻿@model InicioModel
+@{
+    String descDevSoft = "devsoft";
+    //String descPalestra = Model.ConteudoEscopo();
+    //String descMarket = Model.ConteudoEscopo("a");
+    //String descAula = Model.ConteudoEscopo();
+    //String descStats = Model.ConteudoEscopo();
+}
+
+<div class="card container-fluid">
     <div class="align-items-start">
         <div class="card-body row">
             <div class="col col-4 list-group">
@@ -40,10 +49,7 @@
                             <h2 class="ps-lg-5 accordion-header text-primary">Título</h2>
                             <div class="card-body border border-secondary mt-1 ms-5 rounded-5 p-4">
                                 <p class="card-text">
-                                    @model InicioModel
-                                    @{
-                                        @TextWriter.;
-                                     }
+                                    @Html.Label(descDevSoft)
                                 </p>
                                 <div class="footer d-flex">
                                     <div class="ms-auto">
