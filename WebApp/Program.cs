@@ -1,7 +1,12 @@
+using WebApp.Database;
+using WebApp.Pages;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddConnections();
+
 
 var app = builder.Build();
 
@@ -21,5 +26,8 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+Gather g = new Gather();
+g.forward();
 
 app.Run();
