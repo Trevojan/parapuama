@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\",
+  "WorkspaceRootPath": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\shared\\inicio\\abas\\_abasescopos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\shared\\inicio\\abas\\_abasescopos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\inicio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\inicio.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\database\\read.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:database\\read.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\database\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:database\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inicio.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Inicio.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Inicio.cshtml.cs",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Inicio.cshtml.cs",
-              "RelativeToolTip": "Pages\\Inicio.cshtml.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAcwDsAAAAxAAAA",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T21:35:08.16Z",
+              "WhenOpened": "2024-06-05T19:05:09.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tables.cs",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\tables.cs",
+              "RelativeDocumentMoniker": "Database\\tables.cs",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\tables.cs",
+              "RelativeToolTip": "Database\\tables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:57:59.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_AbasEscopos.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\Inicio\\Abas\\_AbasEscopos.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T20:03:03.047Z",
+              "Title": "database.cs",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
+              "RelativeDocumentMoniker": "Database\\database.cs",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
+              "RelativeToolTip": "Database\\database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T18:53:36.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "read.cs",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\read.cs",
+              "RelativeDocumentMoniker": "Database\\read.cs",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\read.cs",
+              "RelativeToolTip": "Database\\read.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T17:56:57.978Z",
               "EditorCaption": ""
             }
           ]
