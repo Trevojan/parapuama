@@ -1,5 +1,4 @@
 using WebApp.Database;
-using WebApp.Pages;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +29,6 @@ app.MapRazorPages();
 //Declarar todas as tabelas aqui:
 Gather g = new Gather();
 g.forward("SELECT * FROM callDbo;");
-g.GetTables();
+g.SetTables();
 
 app.Run();
