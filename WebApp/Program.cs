@@ -4,8 +4,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddConnections();
-
 
 var app = builder.Build();
 
@@ -26,7 +24,7 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-//Declarar todas as tabelas aqui:
+//Declarar todas as tabelas aqui.
 Gather g = new Gather();
 g.forward("SELECT * FROM callDbo;");
 g.SetTables();

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
+using System.ComponentModel.DataAnnotations;
 using System.Dynamic;
 
 namespace WebApp.Database
@@ -9,20 +10,17 @@ namespace WebApp.Database
         {
             try
             {
-                SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True");
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
                 string query = read;
-                con.Open();
-                SqlCommand cmd = new SqlCommand(query, con);
-
-                using (var reader = cmd.ExecuteReader())
-                {if (reader.Read())
-                    {
-                        return "Found database.";
-                    }
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    var reader = cmd.ExecuteReader();
+                    if (reader.Read())
+                    { return "Database found"; }
+                    return read;
                 }
-
-                System.Diagnostics.Debug.WriteLine(read);
-                return read;
             }
             catch (SqlException e)
             {
@@ -36,21 +34,17 @@ namespace WebApp.Database
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = $"SELECT COUNT({c}) FROM {t};";
-
+                string query = $"SELECT {c} FROM {t};";
                 using (SqlConnection con = new SqlConnection(connectionString))
-                {
-                    con.Open();
-                    using (SqlCommand cmd = new SqlCommand(query, con))
+                { con.Open(); using (SqlCommand cmd = new SqlCommand(query, con))
                     {
+                        List<string> val = new List<string>();
                         var reader = cmd.ExecuteReader();
-                        int count = 0;
                         while (reader.Read())
                         {
-                            count = (int)reader[0];
+                            val.Add(Convert.ToString(reader[c]));
                         }
-                        Console.WriteLine($"Count: {count}");
-                        return count;
+                        return val ?? new List<string>();
                     }
                 }
             }
@@ -60,6 +54,7 @@ namespace WebApp.Database
             }
         }
 
+                    
         public void SetTables()
         {
             dynamic tbCargos = new ExpandoObject();
