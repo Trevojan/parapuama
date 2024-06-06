@@ -9,11 +9,22 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
-                <partial name="Cabecalho/_BarraNavSobre" />
-                <partial name="Cabecalho/_BarraNavProjetos" />
-                <partial name="Cabecalho/_BarraNavConta" />
-                <partial name="Cabecalho/_BarraNavSair" />
-                <partial name="Cabecalho/_BarraNavLogin" />
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary ms-2 me-2" asp-area="" asp-page="/sobre">Sobre</a>
+                </li>
+                <li class="d-none">
+                    <a class="btn btn-outline-primary ms-2 me-2" asp-area="" asp-page="/projetos">Meus projetos</a>
+                </li>
+                <li class="d-none">
+                    <a class="btn btn-outline-primary ms-2 me-2" asp-area="" asp-page="/conta">Conta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary ms-2 me-2" data-bs-toggle="modal" data-bs-target="#ModalSair" asp-area="" asp-page="">Sair</a>
+                </li>
+                <partial name="Sair/_ModalSair" />
+                <li class="">
+                    <a class="btn btn-outline-primary ms-2 me-2" asp-area="" asp-page="/login">Login</a>
+                </li>
             </div>
         </div>
     </nav>
