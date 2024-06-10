@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Shared\Inicio\_InicioAbasConteudo.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Pages\Shared\Entrar\" />
   </ItemGroup>
 
