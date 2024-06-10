@@ -27,6 +27,6 @@ app.MapRazorPages();
 //Declarar todas as tabelas aqui.
 Gather g = new Gather();
 g.forward("SELECT * FROM callDbo;");
-g.SetTables();
+//g.SetTables();
 
 app.Run();
