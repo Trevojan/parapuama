@@ -1,5 +1,4 @@
 ﻿using Microsoft.Data.SqlClient;
-using System.ComponentModel.DataAnnotations;
 using System.Dynamic;
 
 namespace WebApp.Database
@@ -12,10 +11,10 @@ namespace WebApp.Database
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
                 string query = read;
-                using (SqlConnection con = new SqlConnection(connectionString))
+                using (SqlConnection con = new(connectionString))
                 {
                     con.Open();
-                    SqlCommand cmd = new SqlCommand(query, con);
+                    SqlCommand cmd = new(query, con);
                     var reader = cmd.ExecuteReader();
                     if (reader.Read())
                     { return "Database found"; }
@@ -35,8 +34,8 @@ namespace WebApp.Database
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
                 string query = $"SELECT {c} FROM {t};";
-                using (SqlConnection con = new SqlConnection(connectionString))
-                { con.Open(); using (SqlCommand cmd = new SqlCommand(query, con))
+                using (SqlConnection con = new (connectionString))
+                { con.Open(); using (SqlCommand cmd = new(query, con))
                     {
                         List<string> val = new List<string>();
                         var reader = cmd.ExecuteReader();
@@ -54,8 +53,7 @@ namespace WebApp.Database
             }
         }
 
-                    
-        public void SetTables()
+        /*public void SetTables()
         {
             dynamic tbCargos = new ExpandoObject();
                     tbCargos.id = SetCol("idCargo", "tbCargos");
@@ -149,6 +147,6 @@ namespace WebApp.Database
                     tbUsuarios.email = SetCol("colEmail", "tbUsuarios");
                     tbUsuarios.apelido = SetCol("colApelido", "tbUsuarios");
                     tbUsuarios.biografia = SetCol("colBiografia", "tbUsuarios");
-        }
+        }*/
     }
 }

@@ -124,6 +124,23 @@ namespace WebApp.Database
             }
         }
 
+        public void NovoUsuario(string lo, string se, string ap)
+        {
+            try
+            {
+                string query = $"INSERT INTO tbUsuarios VALUES({lo},{se},{ap})";
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new(query, con);
+                cmd.ExecuteNonQuery();
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                throw;
+            }
+        }
+
     }
 
     public class Tie

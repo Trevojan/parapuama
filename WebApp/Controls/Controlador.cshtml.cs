@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using WebApp.Database;
 
 namespace WebApp.Controls
 {
@@ -102,6 +103,12 @@ namespace WebApp.Controls
                     return "web app estará disponível no final do 1º semestre de 2024";
             }
             return s;
+        }
+    
+        public void ForwardUsuario(string lo, string se, string ap)
+        {
+            In input = new();
+            input.NovoUsuario(lo, se, ap);
         }
     }
 }
