@@ -1,5 +1,6 @@
 ﻿@page "/novaconta"
-@model WebApp.Pages.NovaContaModel
+@using WebApp.Controls 
+@model Controlador 
 @{
     ViewData["Title"] = "Criação de Conta";
 }
@@ -23,7 +24,7 @@
                         <input type="password" class="form-control text-center" id="idNovaSenha" placeholder="Defina sua senha" />
                     </div>
                     <div class="mb-1 row">
-                        <input type="password" class="form-control text-center" id="idNovaSenha" placeholder="Repita a senha" />
+                        <input type="password" class="form-control text-center" id="idRepetSenha" placeholder="Repita a senha" />
                     </div>
                     <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                         <span>________________________________________________________________</span>
@@ -40,7 +41,7 @@
                         </a>
                     </div>
                     <div class="mb-3 row">
-                        <a href="#" class="btn btn-outline-primary">
+                        <a href="#" class="btn btn-outline-primary" onclick="LimparNovaConta()">
                             Limpar campos
                         </a>
                     </div>
