@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\Shared\Inicio\_NavIcone.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Pages\Shared\Inicio\_InicioAbasConteudo.cshtml" />
   </ItemGroup>
 

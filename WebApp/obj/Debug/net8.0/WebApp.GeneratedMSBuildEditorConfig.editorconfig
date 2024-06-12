@@ -50,30 +50,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVudHJhclxfQ2FyZEVudHJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/Abas/_AbasCorpo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xBYmFzXF9BYmFzQ29ycG8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/Abas/_AbasEscopos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xBYmFzXF9BYmFzRXNjb3Bvcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/Abas/_AbasInicio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xBYmFzXF9BYmFzSW5pY2lvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/Abas/_AbasNovidades.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xBYmFzXF9BYmFzTm92aWRhZGVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/Abas/_AbasTemas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xBYmFzXF9BYmFzVGVtYXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/_InicioAbas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xfSW5pY2lvQWJhcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/_InicioBemVindo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xfSW5pY2lvQmVtVmluZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,8 +62,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xfSW5pY2lvTG9nby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/_InicioMission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xfSW5pY2lvTWlzc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/_InicioRecursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xfSW5pY2lvUmVjdXJzb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/_InicioVision.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xfSW5pY2lvVmlzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Inicio/_NavIcone.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEluaWNpb1xfTmF2SWNvbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/NovaConta/_CardNovaConta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE5vdmFDb250YVxfQ2FyZE5vdmFDb250YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Portfolio/Abas/_AbasCorpo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBvcnRmb2xpb1xBYmFzXF9BYmFzQ29ycG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Portfolio/Abas/_AbasEscopos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBvcnRmb2xpb1xBYmFzXF9BYmFzRXNjb3Bvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Portfolio/Abas/_AbasInicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBvcnRmb2xpb1xBYmFzXF9BYmFzSW5pY2lvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Portfolio/Abas/_AbasNovidades.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBvcnRmb2xpb1xBYmFzXF9BYmFzTm92aWRhZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Portfolio/Abas/_AbasTemas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBvcnRmb2xpb1xBYmFzXF9BYmFzVGVtYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Portfolio/_PortAbas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBvcnRmb2xpb1xfUG9ydEFiYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/Projetos/Conteudo/_ProjetoCargos.cshtml]

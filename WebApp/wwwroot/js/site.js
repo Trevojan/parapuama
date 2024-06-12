@@ -1,7 +1,14 @@
-﻿function LimparNovaConta()
+﻿
+
+function LimparNovaConta()
 {
-    document.getElementById("idNovoLogin").textContent = "";
-    document.getElementById("idNovaSenha").textContent = "";
-    document.getElementById("idRepetSenha").textContent = "";
-    document.getElementById("").textContent = "";
+    var form = document.getElementById("formNovaConta");
+    form.reset();
 }
+
+function LimparLogin() {
+    document.getElementById("idLogin").textContent = "a";
+    document.getElementById("idSenha").textContent = "a";
+    document.getElementById("").textContent = "a";
+}
+

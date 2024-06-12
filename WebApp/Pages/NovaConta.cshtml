@@ -1,36 +1,39 @@
 ﻿@page "/novaconta"
-@using WebApp.Controls 
-@model Controlador 
+@using WebApp.Controls
+@model Controlador
 @{
     ViewData["Title"] = "Criação de Conta";
 }
-
-<div class="container-fluid d-flex justify-content-center m-5">
-    <div class="card col-4">
+<script src="~/js/site.js"></script>
+<div class="container-fluid d-flex justify-content-center pt-5">
+    <div class="card col-4 border border-white">
         <div class="card-body">
             <div class="text-center">
                 <h4 id="idCardTitulo" class="card-title p-2" aria-describedby="idCardSub">Criar nova conta</h4>
                 <small id="idCardSub" class="p-4">Insira seus novos dados para começar a utilizar o Parapuãma!</small>
             </div>
             <div class="container d-flex justify-content-center mt-5">
-                <form class="col-9" method="POST">
+                <form id="formNovaConta" class="col-12" method="POST">
                     <div class="mb-3 row">
-                        <input type="text" class="form-control text-center" id="idNovoLogin" placeholder="Login inédito" />
+                        <input type="text" class="form-control text-center" placeholder="Login inédito" />
+                    </div>
+                    <div class="mb-3 row">
+                        <input type="text" class="form-control text-center" placeholder="Apelido criativo" />
                     </div>
                     <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                         <span>________________________________________________________________</span>
                     </div>
                     <div class="mb-3 row">
-                        <input type="password" class="form-control text-center" id="idNovaSenha" placeholder="Defina sua senha" />
+                        <input type="password" class="form-control text-center" placeholder="Defina sua senha" />
                     </div>
                     <div class="mb-1 row">
-                        <input type="password" class="form-control text-center" id="idRepetSenha" placeholder="Repita a senha" />
+                        <input type="password" class="form-control text-center" placeholder="Repita a senha" />
                     </div>
                     <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                         <span>________________________________________________________________</span>
                     </div>
                     <div class="mb-3 row">
-                        <input type="email" class="form-control text-center" id="idNovoEmail" placeholder="Seu melhor e-mail" />
+                        <input type="email" class="form-control text-center" placeholder="Seu melhor e-mail" />
                     </div>
                     <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                         <span>________________________________________________________________</span>
