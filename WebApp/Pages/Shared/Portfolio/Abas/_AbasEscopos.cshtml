@@ -1,0 +1,148 @@
+﻿@using WebApp.Controls
+@model Controlador
+@{
+    string topDevSoft = Model.TituloEscopo("devsoft");
+    string topPalestra = Model.TituloEscopo("palestra");
+    string topMarket = Model.TituloEscopo("market");
+    string topAula = Model.TituloEscopo("aula");
+    string topStats = Model.TituloEscopo("stats");
+
+    string descDevSoft = Model.ConteudoEscopo("devsoft");
+    string descPalestra = Model.ConteudoEscopo("palestra");
+    string descMarket = Model.ConteudoEscopo("market");
+    string descAula = Model.ConteudoEscopo("aula");
+    string descStats = Model.ConteudoEscopo("stats");
+}
+<div class="card container-fluid">
+    <div class="align-items-start">
+        <div class="card-body row">
+            <div class="col col-4 list-group">
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-primary" role="button"
+                   data-bs-toggle="collapse" data-bs-target="#flush-escopoDevSoft" aria-expanded="false"
+                   aria-controls="flush-escopoDevSoft">
+                    @(topDevSoft)
+                </a>
+
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-success" role="button"
+                   data-bs-toggle="collapse" data-bs-target="#flush-escopoPalestra" aria-expanded="false"
+                   aria-controls="flush-escopoPalestra">
+                    @(topPalestra)
+                </a>
+
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-warning" role="button"
+                   data-bs-toggle="collapse" data-bs-target="#flush-escopoMarket" aria-expanded="false"
+                   aria-controls="flush-escopoMarket">
+                    @(topMarket)
+                </a>
+
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-danger" role="button"
+                   data-bs-toggle="collapse" data-bs-target="#flush-escopoAula" aria-expanded="false"
+                   aria-controls="flush-escopoAula">
+                    @(topAula)
+                </a>
+
+                <a class="rounded-4 btn list-group-item list-group-item-action list-group-item-info" role="button"
+                   data-bs-toggle="collapse" data-bs-target="#flush-escopoStats" aria-expanded="false"
+                   aria-controls="flush-escopoStats">
+                    @(topStats)
+                </a>
+            </div>
+            <div class="col col-8 accordion accordion-flush" id="accordionEscopos">
+                <div class="accordion-item">
+                    <div id="flush-escopoDevSoft" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-primary">@(topDevSoft)</h2>
+                            <div class="card-body mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    @(descDevSoft)
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <partial name="Projetos/Novo/_NovoCorpo"/>
+                                        <button class="btn btn-success me-3" data-bs-toggle="modal"
+                                            data-bs-target="#ModalNovoProjeto">Criar</button>
+                                        <button disabled class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoPalestra" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-success">@(topPalestra)</h2>
+                            <div class="card-body mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    @(descPalestra)
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button disabled class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoMarket" class="accordion-collapse collapse" data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-warning">@(topMarket)</h2>
+                            <div class="card-body mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    @(descMarket)
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button disabled class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoAula" class="accordion-collapse collapse" data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-danger">@(topAula)</h2>
+                            <div class="card-body mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    @(descAula)
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button disabled class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div id="flush-escopoStats" class="accordion-collapse collapse" data-bs-parent="#accordionEscopos">
+                        <div class="accordion-body">
+                            <h2 class="ps-lg-5 accordion-header text-info">@(topStats)</h2>
+                            <div class="card-body mt-1 ms-5 rounded-5 p-4">
+                                <p class="card-text">
+                                    @(descStats)
+                                </p>
+                                <div class="footer d-flex">
+                                    <div class="ms-auto">
+                                        <button disabled class="btn btn-success me-3">Criar</button>
+                                        <button disabled class="btn btn-warning">Favoritar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
