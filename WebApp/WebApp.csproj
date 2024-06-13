@@ -8,15 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Pages\Shared\Inicio\_NavIcone.cshtml.cs" />
+    <Compile Remove="Pages\Inicio\_NavIcone.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\Shared\Inicio\_InicioAbasConteudo.cshtml" />
+    <Content Remove="Pages\Inicio\_InicioAbasConteudo.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Shared\Entrar\" />
+    <Folder Include="Pages\Entrar\" />
   </ItemGroup>
 
   <ItemGroup>
