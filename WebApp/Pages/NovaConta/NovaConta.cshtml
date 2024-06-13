@@ -1,45 +1,49 @@
 ﻿@page "/novaconta"
 @using WebApp.Controls
+@using WebApp.Database
 @model Controlador
 @{
     ViewData["Title"] = "Criação de Conta";
 }
+
+
+}
 <script src="~/js/site.js"></script>
 <div class="container-fluid d-flex justify-content-center pt-5">
-    <div class="card col-4 border border-white">
+    <div class="card col-5 border border-white">
         <div class="card-body">
             <div class="text-center">
                 <h4 id="idCardTitulo" class="card-title p-2" aria-describedby="idCardSub">Criar nova conta</h4>
                 <small id="idCardSub" class="p-4">Insira seus novos dados para começar a utilizar o Parapuãma!</small>
             </div>
             <div class="container d-flex justify-content-center mt-5">
-                <form id="formNovaConta" class="col-12" method="POST">
+                <form id="formNovaConta" class="col-12" method="POST" enctype="multipart/form-data">
                     <div class="mb-3 row">
-                        <input type="text" class="form-control text-center" placeholder="Login inédito" />
+                        <input type="text" name="nmLogin" class="form-control text-center" placeholder="Login inédito" />
                     </div>
                     <div class="mb-3 row">
-                        <input type="text" class="form-control text-center" placeholder="Apelido criativo" />
+                        <input type="text" name="nmApelido" class="form-control text-center" placeholder="Apelido criativo" />
                     </div>
                     <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                         <span>________________________________________________________________</span>
                     </div>
                     <div class="mb-3 row">
-                        <input type="password" class="form-control text-center" placeholder="Defina sua senha" />
+                        <input type="password" name="nmSenha1" class="form-control text-center" placeholder="Defina sua senha" />
                     </div>
                     <div class="mb-1 row">
-                        <input type="password" class="form-control text-center" placeholder="Repita a senha" />
+                        <input type="password" name="nmSenha2" class="form-control text-center" placeholder="Repita a senha" />
                     </div>
                     <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                         <span>________________________________________________________________</span>
                     </div>
                     <div class="mb-3 row">
-                        <input type="email" class="form-control text-center" placeholder="Seu melhor e-mail" />
+                        <input type="email" name="nmEmail" class="form-control text-center" placeholder="Seu melhor e-mail" />
                     </div>
                     <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                         <span>________________________________________________________________</span>
                     </div>
                     <div class="mt-3 mb-3 row">
-                        <a href="#" class="btn btn-primary">
+                        <a type="submit" href="#" class="btn btn-primary">
                             Confirmar
                         </a>
                     </div>
@@ -49,6 +53,32 @@
                         </a>
                     </div>
                 </form>
+                @{
+                    Out @out = new();
+                    string login = Request.Form["nmLogin"];
+                    string senha1 = Request.Form["nmSenha1"];
+                    string senha2 = Request.Form["nmSenha2"];
+                    string email = Request.Form["nmEmail"];
+                    string apelido = Request.Form["nmApelido"];
+
+                    if (senha1 == senha2)
+                    {
+                        bool checkLo = @out.CallUniqueLogin(login);
+                        if(!checkLo)
+                        {
+                            bool checkEm = @out.CallUniqueEmail(email);
+                            if(!checkEm)
+                            {
+                                bool checkAp = @out.CallUniqueApelido(apelido);
+                                if(!checkAp)
+                                {
+                                    In @in = new();
+                                    @in.NovoUsuario(login, senha1, email, apelido);
+                                }
+                            }
+                        }
+                    }
+                }
             </div>
         </div>
     </div>

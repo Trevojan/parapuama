@@ -41,6 +41,83 @@ namespace WebApp.Database
             
             return false;
         }
+
+        public bool CallLogout(int id) {
+            return Session.Contains(id);
+        }
+
+        public bool CallUniqueLogin(string lo) {
+
+            try
+            {
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE {lo} = colLogin";
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    var reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    { return false; }
+                    return true;
+                }
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                throw;
+            }
+        }
+
+        public bool CallUniqueEmail(string em)
+        {
+            try
+            {
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE {em} = colEmail";
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    var reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    { return false; }
+                    return true;
+                }
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                throw;
+            }
+        }
+
+        public bool CallUniqueApelido(string ap)
+        {
+            try
+            {
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE {ap} = colApelido";
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand(query, con);
+                    var reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    { return false; }
+                    return true;
+                }
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                throw;
+            }
+        }
+
     }
 
 }
