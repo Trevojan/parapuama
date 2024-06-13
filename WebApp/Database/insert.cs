@@ -124,11 +124,11 @@ namespace WebApp.Database
             }
         }
 
-        public void NovoUsuario(string lo, string se, string ap)
+        public void NovoUsuario(string lo, string se, string em, string ap)
         {
             try
             {
-                string query = $"INSERT INTO tbUsuarios VALUES({lo},{se},{ap})";
+                string query = $"INSERT INTO tbUsuarios VALUES({lo},{se},{em},{ap})";
                 using SqlConnection con = new(connectionString);
                 con.Open();
                 SqlCommand cmd = new(query, con);

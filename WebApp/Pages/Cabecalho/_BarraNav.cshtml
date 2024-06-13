@@ -1,17 +1,17 @@
 ﻿<header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
         <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-page="/inicio"> <partial name="Inicio/_NavIcone" /> </a>
+            <a class="navbar-brand" asp-area="/" asp-page="../Inicio/inicio"> <partial name="Inicio/_NavIcone" /> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
-                    <a class="d-none btn btn-outline-primary ms-2 me-2" id="navProjetos" asp-page="/projetos">Meus projetos</a>
-                    <a class="d-none btn btn-outline-primary ms-2 me-2" id="navConta" asp-page="/conta">Conta</a>
-                    <a class="btn btn-outline-primary ms-2 me-2" id="navSobre" asp-page="/sobre">Sobre</a>
-                    <a class="d-none btn btn-outline-primary ms-2 me-2" id="navSair" data-bs-toggle="modal" data-bs-target="#ModalSair" asp-area="" asp-page="">Sair</a>
-                    <a class="btn btn-outline-primary ms-2 me-2" id="navLogin" asp-page="/login">Login</a>
+                    <a class="d-none btn btn-outline-primary ms-2 me-2" id="navProjetos" asp-area="../Projetos" asp-page="../Projetos/projetos">Meus projetos</a>
+                <a class="d-none btn btn-outline-primary ms-2 me-2" id="navConta" asp-area="../NovaConta" asp-page="../NovaConta/novaconta">Conta</a>
+                <a class="btn btn-outline-primary ms-2 me-2" id="navSobre" asp-area="../Sobre" asp-page="../Sobre/sobre">Sobre</a>
+                    <a class="d-none btn btn-outline-primary ms-2 me-2" id="navSair" data-bs-toggle="modal" data-bs-target="#ModalSair" href="#">Sair</a>
+                <a class="btn btn-outline-primary ms-2 me-2" id="navLogin" asp-area="../Entrar" asp-page="../Entrar/login">Login</a>
                     <partial name="Sair/_ModalSair" />
             </div>
         </div>

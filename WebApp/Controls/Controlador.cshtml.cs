@@ -106,21 +106,21 @@ namespace WebApp.Controls
             return s;
         }
     
-        public void ForwardUsuario(string lo, string se, string ap)
+        public void ForwardUsuario(string lo, string se, string em, string ap)
         {
             In input = new();
             if (ap == null)
             {
                 ap = lo;
-                input.NovoUsuario(lo, se, ap);
+                input.NovoUsuario(lo, se, em, ap);
             }
             else
             {
-                input.NovoUsuario(lo, se, ap);
+                input.NovoUsuario(lo, se, em, ap);
             }
         }
 
-        /*public void ForwardProjeto(string lo, string se, string ap)
+                /*public void ForwardProjeto(string lo, string se, string ap)
         {
             In input = new();
             input.NovoUsuario(lo, se, ap);

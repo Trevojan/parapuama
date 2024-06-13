@@ -4,14 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Base</title>
 </head>
-<body>
 
-    <div>
+<body class="container">
 
+    <div class="overflow-y">
+        <div class="text-start m-1">
+            <div class="row m-2">
+                <div class="border border-1 border-primary rounded">
+                    <div class="card border border-0">
+                        <div class="card-header">
+                            postado em: 00/00/0000
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text pb-2">
+                            </p>
+                            <blockquote class="blockquote mb-0">
+                                <footer class="fs-7 blockquote-footer">
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    
+                    <h3>@(topProto)</h3>
+                    <label class="ms-4 text-muted user-select-none">
+                        @Html.Raw(subProto)
+                    </label>
+                    <div class="d-flex">
+                        <div class="col pt-2 pb-4 ms-5 col-7">
+                            <label style="text-align: justify;">
+                                @(descProto)
+                            </label>
+                        </div>
+                        <div class="p-5"></div>
+                        <div class="col col-2">
+                            <label class="text-primary user-select-none">data do post:<br>10/06/2024</label>
+                        </div>
+                        <div class="p-5"></div>
+                        <div class="col col-2">
+                            <label class="text-primary user-select-none">autor:<br>Trevojan</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="border border-1 border-primary rounded">
+                    <h3>@(topDesign)</h3>
+                    <label class="ms-4 text-muted user-select-none">
+                        @(subDesign)
+                    </label>
+                    <div class="d-flex">
+                        <div class="col pt-2 pb-4 ms-5 col-7">
+                            <label style="text-align: justify;">
+                                @(descDesign)
+                            </label>
+                        </div>
+                        <div class="p-5"></div>
+                        <div class="col col-2">
+                            <label class="text-primary user-select-none">data do post:<br>27/05/2024</label>
+                        </div>
+                        <div class="p-5"></div>
+                        <div class="col col-2">
+                            <label class="text-primary user-select-none">autor:<br>Trevojan</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="border border-1 border-primary rounded">
+                    <h3>@(topLancamento)</h3>
+                    <label class="ms-4 text-muted user-select-none">
+                        @(subLancamento)
+                    </label>
+                    <div class="d-flex">
+                        <div class="col pt-2 pb-4 ms-5 col-7">
+                            <label style="text-align: justify;">
+                                @(descLancamento);
+                            </label>
+                        </div>
+                        <div class="p-5"></div>
+                        <div class="col col-2">
+                            <label class="text-primary user-select-none">data do post:<br>25/05/2024</label>
+                        </div>
+                        <div class="p-5"></div>
+                        <div class="col col-2">
+                            <label class="text-primary user-select-none">autor:<br>Trevojan</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
