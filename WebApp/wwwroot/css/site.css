@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.carrossel{
+    height: 300px;
+    width: 900px;
+}
