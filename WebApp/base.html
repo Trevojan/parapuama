@@ -15,89 +15,60 @@
 
 <body class="container">
 
+    
+
     <div class="overflow-y">
         <div class="text-start m-1">
             <div class="row m-2">
                 <div class="border border-1 border-primary rounded">
                     <div class="card border border-0">
-                        <div class="card-header">
-                            postado em: 00/00/0000
+                        <div class="card-header fs-5 fw-light fst-italic">
+                            postado em: 10/06/2024 | autor: Trevojan
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text pb-2">
-                            </p>
-                            <blockquote class="blockquote mb-0">
+                            <h5 class="card-title pb-2">@(topProto)</h5>
+                            <blockquote class="blockquote mb-3">
                                 <footer class="fs-7 blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                    <cite title="Source Title">@(subProto)</cite>
                                 </footer>
                             </blockquote>
+                            <p>
+                                @(descProto)
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card border border-0">
+                        <div class="card-header fs-5 fw-light fst-italic">
+                            postado em: 27/05/2024 | autor: Trevojan
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title pb-2">@(topDesign)</h5>
+                            <blockquote class="blockquote mb-3">
+                                <footer class="fs-7 blockquote-footer">
+                                    <cite title="Source Title">@(subDesign)</cite>
+                                </footer>
+                            </blockquote>
+                            <p>
+                                @(descDesign)
+                            </p>
                         </div>
                     </div>
                     
-                    <h3>@(topProto)</h3>
-                    <label class="ms-4 text-muted user-select-none">
-                        @Html.Raw(subProto)
-                    </label>
-                    <div class="d-flex">
-                        <div class="col pt-2 pb-4 ms-5 col-7">
-                            <label style="text-align: justify;">
-                                @(descProto)
-                            </label>
+                    <div class="card border border-0">
+                        <div class="card-header fs-5 fw-light fst-italic">
+                            postado em: 25/05/2024 | autor: Trevojan
                         </div>
-                        <div class="p-5"></div>
-                        <div class="col col-2">
-                            <label class="text-primary user-select-none">data do post:<br>10/06/2024</label>
-                        </div>
-                        <div class="p-5"></div>
-                        <div class="col col-2">
-                            <label class="text-primary user-select-none">autor:<br>Trevojan</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row m-2">
-                <div class="border border-1 border-primary rounded">
-                    <h3>@(topDesign)</h3>
-                    <label class="ms-4 text-muted user-select-none">
-                        @(subDesign)
-                    </label>
-                    <div class="d-flex">
-                        <div class="col pt-2 pb-4 ms-5 col-7">
-                            <label style="text-align: justify;">
-                                @(descDesign)
-                            </label>
-                        </div>
-                        <div class="p-5"></div>
-                        <div class="col col-2">
-                            <label class="text-primary user-select-none">data do post:<br>27/05/2024</label>
-                        </div>
-                        <div class="p-5"></div>
-                        <div class="col col-2">
-                            <label class="text-primary user-select-none">autor:<br>Trevojan</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row m-2">
-                <div class="border border-1 border-primary rounded">
-                    <h3>@(topLancamento)</h3>
-                    <label class="ms-4 text-muted user-select-none">
-                        @(subLancamento)
-                    </label>
-                    <div class="d-flex">
-                        <div class="col pt-2 pb-4 ms-5 col-7">
-                            <label style="text-align: justify;">
-                                @(descLancamento);
-                            </label>
-                        </div>
-                        <div class="p-5"></div>
-                        <div class="col col-2">
-                            <label class="text-primary user-select-none">data do post:<br>25/05/2024</label>
-                        </div>
-                        <div class="p-5"></div>
-                        <div class="col col-2">
-                            <label class="text-primary user-select-none">autor:<br>Trevojan</label>
+                        <div class="card-body">
+                            <h5 class="card-title pb-2">@(topLancamento)</h5>
+                            <blockquote class="blockquote mb-3">
+                                <footer class="fs-7 blockquote-footer">
+                                    <cite title="Source Title">@(subLancamento)</cite>
+                                </footer>
+                            </blockquote>
+                            <p>
+                                @(descLancamento)
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -105,6 +76,7 @@
         </div>
     </div>
 
+    
 </body>
 
 </html>

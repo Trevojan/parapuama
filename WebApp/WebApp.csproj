@@ -13,6 +13,11 @@
 
   <ItemGroup>
     <Content Remove="Pages\Inicio\_InicioAbasConteudo.cshtml" />
+    <Content Remove="Pages\Inicio\_Parcerias1.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Pages\Inicio\_Parcerias1.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

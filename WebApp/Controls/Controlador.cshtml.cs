@@ -1,10 +1,18 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApp.Database;
+using WebApp.Pages;
 
 namespace WebApp.Controls
 {
     public class Controlador : PageModel
     {
+        public string NmLogin { get; set; }
+        public string NmSenha1 { get; set; }
+        public string NmSenha2 { get; set; }
+        public string NmEmail { get; set; }
+        public string NmApelido { get; set; }
+
         public string TituloEscopo(string t)
         {
             switch (t)
@@ -89,8 +97,8 @@ namespace WebApp.Controls
         }
 
         public string SubNovidade(string s)
-        { 
-            switch(s)
+        {
+            switch (s)
             {
                 case "boasvindas":
                     return "app está no ar em você pode senti-lo";
@@ -102,10 +110,12 @@ namespace WebApp.Controls
                     return "novos estilos estão por vir";
                 case "lancamento":
                     return "web app estará disponível no final do 1º semestre de 2024";
+                default:
+                    break;
             }
             return s;
         }
-    
+
         public void ForwardUsuario(string lo, string se, string em, string ap)
         {
             In input = new();
@@ -120,10 +130,10 @@ namespace WebApp.Controls
             }
         }
 
-                /*public void ForwardProjeto(string lo, string se, string ap)
-        {
-            In input = new();
-            input.NovoUsuario(lo, se, ap);
-        }*/
+        /*public void ForwardProjeto(string lo, string se, string ap)
+{
+    In input = new();
+    input.NovoUsuario(lo, se, ap);
+}*/
     }
 }

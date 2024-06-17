@@ -32,6 +32,15 @@ namespace WebApp.Database
             }
         }
 
+        public bool CallPassword(string p1, string p2)
+        {
+            if (p1 == p2 && p1 != null)
+            {
+                return false;
+            }
+            return true;
+        }
+
         public bool CallLoginCheck(int id)
         {
             if (Session.Contains(id))
@@ -51,7 +60,7 @@ namespace WebApp.Database
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = $"SELECT idUsuario FROM tbUsuarios WHERE {lo} = colLogin";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE '{lo}' = colLogin";
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
                     con.Open();
