@@ -140,7 +140,6 @@ namespace WebApp.Database
                 throw;
             }
         }
-
     }
 
     public class Tie
