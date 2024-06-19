@@ -128,7 +128,11 @@ namespace WebApp.Database
         {
             try
             {
-                string query = $"INSERT INTO tbUsuarios VALUES({lo},{se},{em},{ap})";
+                Console.WriteLine("lo = " + lo);
+                Console.WriteLine("se = " + se);
+                Console.WriteLine("em = " + em);
+                Console.WriteLine("ap = " + ap);
+                string query = $"INSERT INTO tbUsuarios VALUES('{lo}','{se}','{em}','{ap}','')";
                 using SqlConnection con = new(connectionString);
                 con.Open();
                 SqlCommand cmd = new(query, con);

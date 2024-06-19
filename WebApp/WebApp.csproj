@@ -14,6 +14,8 @@
   <ItemGroup>
     <Content Remove="Pages\Inicio\_InicioAbasConteudo.cshtml" />
     <Content Remove="Pages\Inicio\_Parcerias1.cshtml" />
+    <Content Remove="Pages\Portfolio\Favoritos\_AbasConteudo.cshtml" />
+    <Content Remove="Pages\Portfolio\Favoritos\_AbasEscopos.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

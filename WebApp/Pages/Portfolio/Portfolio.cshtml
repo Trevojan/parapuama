@@ -1,1 +1,11 @@
-<partial name="_PortAbas" />
+@page "/portfolio"
+@model WebApp.Models.ModelPortfolio
+@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<partial name="Portfolio/Abas/_AbasInicio" />
+
+<partial name="../Portfolio/Favoritos/_FavConteudo" />
+
+<partial name="../Portfolio/Participando/_ParConteudo" />

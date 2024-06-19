@@ -1,0 +1,30 @@
+@page
+@model MyFormModel
+
+<form method="post">
+    <label asp-for="Name"></label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+
+    <button type="submit">Submit</button>
+</form>
+
+@functions {
+    public class MyFormModel : Microsoft.AspNetCore.Mvc.RazorPages.PageModel
+    {
+        [BindProperty]
+        public string Name { get; set; }
+
+        [BindProperty]
+        public string Email { get; set; }
+
+        public void OnPost()
+        {
+            Console.WriteLine($"Name: {Name}, Email: {Email}");
+        }
+    }
+}

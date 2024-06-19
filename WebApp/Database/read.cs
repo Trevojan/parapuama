@@ -6,12 +6,12 @@ namespace WebApp.Database
     {
         List<int> Session = new List<int>();
 
-        public bool CallDoLogin(string l, string p)
+        public bool CallDoLogin(string lo, string se)
         {
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = $"SELECT idUsuario FROM tbUsuarios WHERE {l} = colLogin AND {p} = colSenha";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE '{lo}' = colLogin AND '{se}' = colSenha";
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
                     con.Open();
@@ -32,9 +32,9 @@ namespace WebApp.Database
             }
         }
 
-        public bool CallPassword(string p1, string p2)
+        public bool CallPassword(string se1, string se2)
         {
-            if (p1 == p2 && p1 != null)
+            if (se1 == se2)
             {
                 return false;
             }
@@ -84,7 +84,7 @@ namespace WebApp.Database
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = $"SELECT idUsuario FROM tbUsuarios WHERE {em} = colEmail";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE '{em}' = colEmail";
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
                     con.Open();
@@ -108,7 +108,7 @@ namespace WebApp.Database
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = $"SELECT idUsuario FROM tbUsuarios WHERE {ap} = colApelido";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE '{ap}' = colApelido";
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
                     con.Open();

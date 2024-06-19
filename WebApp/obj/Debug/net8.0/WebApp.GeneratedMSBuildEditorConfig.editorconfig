@@ -102,12 +102,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEFiYXNcX0FiYXNUZW1hcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Portfolio.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXFBvcnRmb2xpby5jc2h0bWw=
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Favoritos/_FavConteudo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEZhdm9yaXRvc1xfRmF2Q29udGV1ZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/_PortAbas.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXF9Qb3J0QWJhcy5jc2h0bWw=
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Participando/_ParConteudo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXFBhcnRpY2lwYW5kb1xfUGFyQ29udGV1ZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXFBvcnRmb2xpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Conteudo/_ProjetoCargos.cshtml]
