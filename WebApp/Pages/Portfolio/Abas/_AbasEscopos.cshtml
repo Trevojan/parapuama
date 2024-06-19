@@ -1,5 +1,5 @@
-﻿@using WebApp.Controls
-@model Controlador
+﻿@using WebApp.Models
+@model ModelPortfolio
 @{
     string topDevSoft = Model.TituloEscopo("devsoft");
     string topPalestra = Model.TituloEscopo("palestra");
@@ -13,6 +13,7 @@
     string descAula = Model.ConteudoEscopo("aula");
     string descStats = Model.ConteudoEscopo("stats");
 }
+
 <div class="card container-fluid">
     <div class="align-items-start">
         <div class="card-body row">
