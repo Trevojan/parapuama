@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\",
+  "WorkspaceRootPath": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\portfolio\\abas\\_abastemas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\portfolio\\abas\\_abastemas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\portfolio\\abas\\_abasnovidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\portfolio\\abas\\_abasnovidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\portfolio\\participando\\_parconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\pages\\portfolio\\participando\\_parconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\portfolio\\participando\\_parconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\portfolio\\favoritos\\_favconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\portfolio\\favoritos\\_favconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_AbasTemas.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Abas\\_AbasTemas.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Portfolio\\Abas\\_AbasTemas.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Abas\\_AbasTemas.cshtml",
-              "RelativeToolTip": "Pages\\Portfolio\\Abas\\_AbasTemas.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAsAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T22:32:27.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_AbasNovidades.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Abas\\_AbasNovidades.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Portfolio\\Abas\\_AbasNovidades.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Abas\\_AbasNovidades.cshtml",
-              "RelativeToolTip": "Pages\\Portfolio\\Abas\\_AbasNovidades.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAEwBQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T22:32:13.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "_ParConteudo.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
               "RelativeDocumentMoniker": "Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
               "RelativeToolTip": "Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T22:30:53.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_FavConteudo.cshtml",
-              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "RelativeToolTip": "Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T22:30:33.831Z",
+              "WhenOpened": "2024-06-20T20:06:52.876Z",
               "EditorCaption": ""
             }
           ]

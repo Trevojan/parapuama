@@ -6,15 +6,15 @@ namespace WebApp.Pages.Erro
 {
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     [IgnoreAntiforgeryToken]
-    public class ErrorModel : PageModel
+    public class ModelError : PageModel
     {
         public string? RequestId { get; set; }
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
-        private readonly ILogger<ErrorModel> _logger;
+        private readonly ILogger<ModelError> _logger;
 
-        public ErrorModel(ILogger<ErrorModel> logger)
+        public ModelError(ILogger<ModelError> logger)
         {
             _logger = logger;
         }
