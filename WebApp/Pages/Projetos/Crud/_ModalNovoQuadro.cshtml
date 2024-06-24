@@ -1,0 +1,42 @@
+﻿<div class="modal fade" id="ModalNovoQuadro">
+    <div class="modal-dialog">
+        <div class="modal-content m-1">
+            <div class="card-body m-3 text-center">
+                <h3 id="idCardNovoQuadro" class="card-title pt-2" aria-describedby="idSubNovoQuadro">
+                    Novo Quadro
+                </h3>
+                <small id="idSubNovoQuadro" class="pt-2 text-muted">
+                    Insira o título e uma descrição opcional para
+                    criar o quadro.
+                </small>
+                <div class="card-body d-flex justify-content-center pt-4">
+                    <div class="row">
+                        <p>
+                            <input type="text" class="form-control" id="" placeholder="Título do quadro" required>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <div class="form-floating">
+                                <textarea class="form-control"
+                                          placeholder="Escreva uma descrição para que a equipe compreenda este quadro."
+                                          id="floatingTextarea" required></textarea>
+                                <label for="floatingTextarea"><span class="text-muted">Descrição</span></label>
+                            </div>
+                        </p>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn btn-primary me-5 col-4"
+                                data-bs-dismiss="modal">
+                            Confirmar
+                        </button>
+                        <button type="button" class="btn btn-secondary col-4"
+                                data-bs-dismiss="modal">
+                            Cancelar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
