@@ -1,5 +1,5 @@
 ﻿@page "/entrar"
-@model LoginModel
+@model WebApp.Models.ModelLogin
 @{
     ViewData["Title"] = "Entrar";
 }
@@ -14,10 +14,10 @@
                 <div class="container d-flex justify-content-center mt-5">
                     <form class="col-6" method="POST">
                         <div class="mb-3 row">
-                            <input type="text" class="form-control text-center" id="idLogin" placeholder="Login" />
+                            <input type="text" class="form-control text-center" id="idLogin" placeholder="Login" asp-for="Login" />
                         </div>
                         <div class="mb-1 row">
-                            <input type="password" class="form-control text-center" id="idSenha" placeholder="Senha" />
+                            <input type="password" class="form-control text-center" id="idSenha" placeholder="Senha" asp-for="Senha" />
                         </div>
                         <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
                             <span>________________________________________________________________</span>

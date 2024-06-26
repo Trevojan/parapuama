@@ -18,12 +18,116 @@
 
 <body class="container-fluid">
 
+    <body class="m-5 bg-primary bg-gradient rounded-4" cz-shortcut-listen="true">
+
+        <<nav class="ms-5 p-1 text-center navbar navbar-expand-lg navbar-white bg-white">
+            <div class="container-fluid">
+                <h1 class="text-muted fs-6 col-2">Acesso rápido</h1>
+                <ul class="nav navbar-nav col-10 d-flex justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link px-5 btn btn-outline-primary rounded-0" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                                type="button" role="tab" >
+                            Home
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link px-5 btn btn-outline-primary rounded-0" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                type="button" role="tab" >
+                            Profile
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link px-5 btn btn-outline-primary rounded-0" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages"
+                                type="button" role="tab" aria-controls="messages" aria-selected="false">
+                            Messages
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container mt-3">
+            <div class="tab-content">
+                <div class="tab-pane border border-0" id="home" role="tabpanel" style="height: 400px; overflow-y: scroll; overflow-x: hidden;">
+                    <div class="d-flex flex-row">
+                        <div class="col col-6">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Nome</th>
+                                        <th scope="col">Descrição</th>
+                                        <th scope="col">Estado</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Row 1 Cell 1</td>
+                                        <td>Row 1 Cell 2</td>
+                                        <td>Row 1 Cell 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Row 2 Cell 1</td>
+                                        <td>Row 2 Cell 2</td>
+                                        <td>Row 2 Cell 3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Row 3 Cell 1</td>
+                                        <td>Row 3 Cell 2</td>
+                                        <td>Row 3 Cell 3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="ms-5 col col-5">
+                            <div class="card text-start">
+                                <div class="card-body" style="height: 350px;">
+                                    <h1 class="mb-2 fs-5 card-title">
+                                        Objetivo Nº0 <i class="bi bi-dash"></i> Estado:
+                                        nenhum
+                                    </h1>
+                                    <p class="card-text">Selecione algum objetivo da tabela.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add other tab panes here -->
+            </div>
+        </div>
 
 
-    <!-- Modal Nova tarefa -->
-    
 
 
-</body>
+
+
+
+        <footer
+            class="ps-3 bg-white d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    © 2024 - Parapuãma - </a><a href="/sobre?area=..%2FSobre">Sobre</a>
+
+            </div>
+        </footer>
+
+        <script src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/site.js?v=bd-UCkkIAAjZ1nOuu7c31iuvfQ06eu-3nuEfQbatdAw"></script>
+        <script>
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+        </script>
+
+
+        <script type="text/javascript" src="/_vs/browserLink" async="async"
+            id="__browserLink_initializationData" data-requestid="57ccbb93af994f99a3b9c64ff56747ba"
+            data-requestmappingfromserver="false"
+            data-connecturl="http://localhost:51358/5bafcc7e9d8241d29a42c586df2b402f/browserLink"></script>
+
+        <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+
+
+
+    </body>
 
 </html>

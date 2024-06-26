@@ -1,0 +1,28 @@
+﻿<button type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasProjetos">
+    <i class="bi bi-list"></i>
+</button>
+
+<div class="offcanvas offcanvas-start" tabindex="1" id="offcanvasProjetos" aria-labelledby="offcanvasProjetosLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasProjetosLabel">Opções</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="col-11 position-absolute bottom-0 d-flex flex-column text-center">
+            <div class="bg-primary hover-item">
+                <a class="text-white link-underline link-underline-opacity-0" asp-page="../Portfolio/portfolio">
+                    voltar ao menu</a>
+            </div>
+            <div class="bg-primary hover-item">
+                <partial name="Sair/_ModalSair">
+                    <a class="text-white link-underline link-underline-opacity-0" data-bs-toggle="modal"
+                        data-bs-target="#ModalSair" href="#">
+                        sair da conta</a>
+            </div>
+            <div class="bg-primary hover-item">
+                <a disabled class="text-white link-underline link-underline-opacity-0" href="#">
+                    nos dê seu feedback!</a>
+            </div>
+        </div>
+    </div>
+</div>

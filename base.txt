@@ -1,5 +1,10 @@
 public class Gather(){} // checa a existência do banco de dados para iniciar a aplicação
+
 public class In(){} // guarda as funções de inserção no banco de dados
+
 public class Shout(){} // guarda as funções de output de dados ao usuário
+    as funções de check para existência de dados se chamam Call
+
 public class Tie(){} // guarda as funções relacionadas às chaves estrangeiras
+
 public class Cut(){} // guarda as funções relacionadas à exclusão de dados
