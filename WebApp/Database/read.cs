@@ -29,9 +29,9 @@ namespace WebApp.Database
                     query = $"SELECT idOnline FROM tbOnline WHERE colLogado = {log}";
                     cmd = new(query, con);
                     reader = cmd.ExecuteReader();
-                    
+
                     if (reader.Read()) { Session.Add(reader.GetInt32(0)); }
-                    
+
                     return true;
                 }
                 return false;

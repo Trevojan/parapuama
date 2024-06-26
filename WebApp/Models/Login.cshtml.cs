@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.SqlClient;
 
 namespace WebApp.Models
 {
@@ -12,19 +11,14 @@ namespace WebApp.Models
         [BindProperty]
         public required string Senha { get; set; }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
-            Database.Out @out = new();
-
-            if (@out.CallDoLogin(Login, Senha))
-            {
-                RedirectToPage("/portfolio");
-            }
-            else
+            if (!ModelState.IsValid)
             {
                 
+                return new JsonResult(new { loginfail = true });
             }
+            return RedirectToPage("/portfolio");
         }
     }
 }
-
