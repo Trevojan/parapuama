@@ -2,7 +2,19 @@
 @model WebApp.Models.ModelLogin
 @{
     ViewData["Title"] = "Entrar";
+
 }
+
+<script>
+    document.onload(function () {
+        var showLoginFailedModal = @Json.Serialize(ViewBag.loginfail);
+        if (loginfail) {
+            $('#ModalLogin').modal('show');
+        }
+    });
+</script>
+
+<partial name="./_ModalEntrar" />
 
 <div class="container-fluid d-flex justify-content-center pt-5">
         <div class="card col-9 border border-white">
@@ -23,10 +35,10 @@
                             <span>________________________________________________________________</span>
                         </div>
                         <div class="mt-3 mb-3 row">
-                            <a class="btn btn-primary" asp-page="../Portfolio/portfolio">
+                        <button class="btn btn-primary" type="submit" onclick="modalLogin()">
                                 Acessar
-                            </a>
-                        </div>
+                            </button>
+                    </div>
                         <div class="mb-3 row">
                             <a class="btn btn-outline-primary" asp-page="../NovaConta/novaconta">
                                 Criar conta
