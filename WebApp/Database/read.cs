@@ -4,7 +4,7 @@ namespace WebApp.Database
 {
     public class Out
     {
-        List<int> Session = new List<int>();
+        private List<int> Session = [];
 
         public bool CallDoLogin(string lo, string se)
         {
@@ -12,18 +12,29 @@ namespace WebApp.Database
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
                 string query = $"SELECT idUsuario FROM tbUsuarios WHERE '{lo}' = colLogin AND '{se}' = colSenha";
-                using (SqlConnection con = new SqlConnection(connectionString))
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new(query, con);
+                var reader = cmd.ExecuteReader();
+
+
+                if (reader.Read())
                 {
+                    int log = reader.GetInt32(0);
+
+                    query = $"INSERT INTO tbOnline VALUES({0},{log},{1})";
                     con.Open();
-                    SqlCommand cmd = new SqlCommand(query, con);
-                    var reader = cmd.ExecuteReader();
+                    cmd = new(query, con);
 
-                    Session.Add(reader.GetInt32(0));
-
-                    if (reader.Read())
-                    { return true; }
-                    return false;
+                    query = $"SELECT idOnline FROM tbOnline WHERE colLogado = {log}";
+                    cmd = new(query, con);
+                    reader = cmd.ExecuteReader();
+                    
+                    if (reader.Read()) { Session.Add(reader.GetInt32(0)); }
+                    
+                    return true;
                 }
+                return false;
             }
             catch (SqlException e)
             {
@@ -51,11 +62,13 @@ namespace WebApp.Database
             return false;
         }
 
-        public bool CallLogout(int id) {
+        public bool CallLogout(int id)
+        {
             return Session.Contains(id);
         }
 
-        public bool CallUniqueLogin(string lo) {
+        public bool CallUniqueLogin(string lo)
+        {
 
             try
             {
@@ -78,7 +91,7 @@ namespace WebApp.Database
                 throw;
             }
         }
-
+        
         public bool CallUniqueEmail(string em)
         {
             try
@@ -126,7 +139,6 @@ namespace WebApp.Database
                 throw;
             }
         }
-
     }
 
 }

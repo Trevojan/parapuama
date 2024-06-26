@@ -2,16 +2,20 @@
 @model WebApp.Models.ModelProjetos
 @{
 
- }
- <div class="container-fluid">
-
-
-<partial name="../Projetos/Conteudo/_ProjetoOpcoes" />
-<partial name="../Projetos/Conteudo/_ProjetoUsuario" />
-<partial name="../Projetos/_Quadro" />
-<partial name="../Projetos/_Grupos" />
-<partial name="../Projetos/_Idealizacao" />
-<partial name="../Projetos/_Objetivos" />
-<partial name="../Projetos/_Ferramentas" />
-
+}
+<div class="container-fluid">
+    <partial name="../Projetos/Conteudo/_NavProjetos" />
+    <div class="row">
+        <div class="col col-sm-1 d-flex flex-column">
+            <partial name="../Projetos/Conteudo/_ProjetoOpcoes" />
+            <div class="my-3"></div>
+            <partial name="../Projetos/Conteudo/_ProjetoUsuario" />
+        </div>
+        <div class="col mt-3 tab-content">
+            <partial name="../Projetos/_Backlog" />
+            <partial name="../Projetos/_Ferramentas" />
+            <partial name="../Projetos/_Entrevistas" />
+            <partial name="../Projetos/_Documentacao" />
+        </div>
+    </div>
 </div>
