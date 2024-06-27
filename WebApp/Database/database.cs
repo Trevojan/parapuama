@@ -11,15 +11,13 @@ namespace WebApp.Database
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
                 string query = read;
-                using (SqlConnection con = new(connectionString))
-                {
-                    con.Open();
-                    SqlCommand cmd = new(query, con);
-                    var reader = cmd.ExecuteReader();
-                    if (reader.Read())
-                    { return "Database found"; }
-                    return read;
-                }
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new(query, con);
+                var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                { return "Database found"; }
+                return read;
             }
             catch (SqlException e)
             {
@@ -27,6 +25,39 @@ namespace WebApp.Database
                 throw;
             }
         }
+
+        public bool ForwardUsuario(string lo, string se1, string se2, string em, string ap)
+        {
+            Console.WriteLine("Forwarded: Usuário");
+            Out @out = new();
+            In @in = new();
+            ap ??= lo;
+
+            bool checkSe = @out.CallPassword(se1, se2);
+            if (!checkSe)
+            {
+                bool checkLo = @out.CallUniqueLogin(lo);
+                Console.WriteLine("Chamou o login");
+                Console.WriteLine("Login: " + lo);
+                if (checkLo)
+                {
+                    bool checkEm = @out.CallUniqueEmail(em);
+                    Console.WriteLine("Chamou o e-mail");
+                    if (checkEm)
+                    {
+                        bool checkAp = @out.CallUniqueApelido(ap);
+                        Console.WriteLine("Chamou o apelido");
+                        if (checkAp)
+                        {
+                            return @in.NovoUsuario(lo, se1, em, ap);
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+
+
 
         public object SetCol(string c, string t)
         {
