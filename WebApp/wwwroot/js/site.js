@@ -7,14 +7,7 @@ function LimparNovaConta()
     form.reset();
 }
 
-function LimparLogin()
+function showModal()
 {
-    document.getElementById("idLogin").textContent = "a";
-    document.getElementById("idSenha").textContent = "a";
-    document.getElementById("").textContent = "a";
-}
-
-function modalLogin()
-{
-    document.getElementById("bModalLogin").click();
+    
 }
