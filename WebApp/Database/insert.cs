@@ -124,22 +124,21 @@ namespace WebApp.Database
             }
         }
 
-        public void NovoUsuario(string lo, string se, string em, string ap)
+        public bool NovoUsuario(string lo, string se, string em, string ap)
         {
             try
             {
-                Console.WriteLine("lo = " + lo);
-                Console.WriteLine("se = " + se);
-                Console.WriteLine("em = " + em);
-                Console.WriteLine("ap = " + ap);
                 string query = $"INSERT INTO tbUsuarios VALUES('{lo}','{se}','{em}','{ap}','')";
                 using SqlConnection con = new(connectionString);
                 con.Open();
                 SqlCommand cmd = new(query, con);
                 cmd.ExecuteNonQuery();
+                Console.WriteLine("Usuário adicionado com sucesso.");
+                return true;
             }
             catch (SqlException e)
             {
+                Console.WriteLine("Falha na operação.");
                 System.Diagnostics.Debug.WriteLine("Erro: " + e);
                 throw;
             }
@@ -147,7 +146,7 @@ namespace WebApp.Database
     }
 
     public class Tie
-    { 
+    {
         string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
         public void Encarregar(string ca, string us, string pr)
         {

@@ -21,9 +21,9 @@ namespace WebApp.Database
                 if (reader.Read())
                 {
                     int log = reader.GetInt32(0);
+                    reader.Close();
 
                     query = $"INSERT INTO tbOnline VALUES({0},{log},{1})";
-                    con.Open();
                     cmd = new(query, con);
 
                     query = $"SELECT idOnline FROM tbOnline WHERE colLogado = {log}";

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Diagnostics;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WebApp.Models
@@ -13,12 +14,13 @@ namespace WebApp.Models
 
         public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
+            Database.Out @out = new();
+            if (!@out.CallDoLogin(Login, Senha))
             {
-                
-                return new JsonResult(new { loginfail = true });
+                Partial("../Pages/Entrar/_ModalEntrar");
+                return Page();
             }
-            return RedirectToPage("/portfolio");
+            return RedirectToPage("../Portfolio/Portfolio");
         }
     }
 }

@@ -8,8 +8,8 @@ namespace WebApp.Controls
         [HttpPost]
         public IActionResult OnPost(ModelNovaConta m)
         {
+            Database.Gather g = new();
             Console.WriteLine($"NmLogin = {m.NmLogin}, NmSenha1 = {m.NmSenha1},NmSenha2 = {m.NmSenha2} NmEmail = {m.NmEmail}, NmApelido = {m.NmApelido}");
-            Controlador c = new();
 
             if (m.NmLogin != null)
             {
@@ -27,16 +27,12 @@ namespace WebApp.Controls
                             {
                                 string ap = m.NmApelido;
                                 Console.WriteLine($"lo = {lo}, se = {se1}, em = {em}, ap = {ap}");
-                                c.ForwardUsuario(lo, se1, se2, em, ap);
+                                g.ForwardUsuario(lo, se1, se2, em, ap);
                                 return RedirectToRoute("/login");
                             }
                         }
                     }
                 }
-            }
-            else
-            {
-                return RedirectToRoute("/");
             }
             return RedirectToRoute("/");
         }
