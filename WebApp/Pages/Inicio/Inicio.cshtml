@@ -3,6 +3,12 @@
 @model ControlInicio
 @{
     ViewData["Title"] = "Inicio";
+    Database.Out @out = new();
+    Database.Gather g = new();
+    g.ForwardOnline();
+    @out.Session.Add(1);
+    int id = @out.Session.Last();
+    var go = @out.CallLoginCheck(id);
 }
 
 <div class="mb-5 row justify-content-center align-items-center g-2">

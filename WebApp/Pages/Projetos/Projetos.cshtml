@@ -3,12 +3,12 @@
 @{
     ViewData["Title"] = "Projeto";
 
-    Database.Out @out = new();
-
-    if (!@out.CallLoginCheck(@out.Id))
-    { RedirectToPage("../Entrar/LoginRe"); }
+    /*
+      Database.Out @out = new();
+      if (!@out.CallLoginCheck(@out.Id))
+      { RedirectToPage("../Entrar/LoginRe"); }
+    */
 }
-
 
 <div class="container-fluid">
     <partial name="../Projetos/Conteudo/_NavProjetos" />

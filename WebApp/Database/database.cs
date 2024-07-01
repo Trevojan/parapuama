@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using System.Data;
+using Microsoft.Data.SqlClient;
 
 namespace WebApp.Database
 {
@@ -56,9 +57,41 @@ namespace WebApp.Database
             return false;
         }
 
+        public void ForwardOnline()
+        {
+            try
+            {
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+                string query = "SELECT * FROM tbOnline";
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new(query, con);
+                var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    Out @out = new();
+                    object[] vals = new object[reader.FieldCount];
+                    reader.GetValues(vals);
+
+                    foreach (object val in vals)
+                    {
+                        if (val != DBNull.Value)
+                        {
+                            @out.Session.Add(Convert.ToInt32(val));
+                        }
+                    }
+
+                }
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                throw;
+            }
+        }
 
 
-        public object SetCol(string c, string t)
+        /*public object SetCol(string c, string t)
         {
             try
             {
@@ -81,7 +114,7 @@ namespace WebApp.Database
             {
                 throw;
             }
-        }
+        }*/
 
         /*public void SetTables()
         {

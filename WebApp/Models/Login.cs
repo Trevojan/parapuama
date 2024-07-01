@@ -10,14 +10,16 @@ namespace WebApp.Models
         [BindProperty]
         public required string Senha { get; set; }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
             Database.Out @out = new();
-            int callId = @out.CallDoLogin(Login, Senha);
-            if (callId != 0)
+            bool redr = @out.CallDoLogin(Login, Senha);
+            switch (redr)
             {
-                @out.Id = callId;
-                RedirectToPage("../Portfolio/Portfolio");
+                case true:
+                    return RedirectToPage("../Portfolio/Portfolio");
+                case false:
+                    return RedirectToPage("./LoginErro");
             }
         }
     }
