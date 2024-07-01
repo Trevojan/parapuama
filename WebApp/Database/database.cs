@@ -1,11 +1,10 @@
 ﻿using Microsoft.Data.SqlClient;
-using System.Dynamic;
 
 namespace WebApp.Database
 {
     public class Gather
     {
-        public string forward(String read)
+        public string Forward(String read)
         {
             try
             {

@@ -7,15 +7,16 @@ namespace WebApp.Models
     {
         [BindProperty]
         public required string Login { get; set; }
-
         [BindProperty]
         public required string Senha { get; set; }
 
         public void OnPost()
         {
             Database.Out @out = new();
-            if (@out.CallDoLogin(Login, Senha))
+            int callId = @out.CallDoLogin(Login, Senha);
+            if (callId != 0)
             {
+                @out.Id = callId;
                 RedirectToPage("../Portfolio/Portfolio");
             }
         }

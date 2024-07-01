@@ -4,9 +4,10 @@ namespace WebApp.Database
 {
     public class Out
     {
-        private List<int> Session = [];
+        public List<int> Session = [];
+        public int Id { get; set; }
 
-        public bool CallDoLogin(string lo, string se)
+        public int CallDoLogin(string lo, string se)
         {
             try
             {
@@ -16,7 +17,6 @@ namespace WebApp.Database
                 con.Open();
                 SqlCommand cmd = new(query, con);
                 var reader = cmd.ExecuteReader();
-
 
                 if (reader.Read())
                 {
@@ -32,9 +32,9 @@ namespace WebApp.Database
 
                     if (reader.Read()) { Session.Add(reader.GetInt32(0)); }
 
-                    return true;
+                    return Session.Last();
                 }
-                return false;
+                return 0;
             }
             catch (SqlException e)
             {

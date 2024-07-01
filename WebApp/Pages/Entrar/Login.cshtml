@@ -2,7 +2,13 @@
 @model WebApp.Models.ModelLogin
 @{
     ViewData["Title"] = "Entrar";
+    Database.Out @out = new();
+    var Id = @out.Id;
 }
+
+<script>
+    userId = @Id;
+</script>
 
 <div class="container-fluid d-flex justify-content-center pt-5">
         <div class="card col-9 border border-white">

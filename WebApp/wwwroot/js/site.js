@@ -7,7 +7,4 @@ function LimparNovaConta()
     form.reset();
 }
 
-function showModal()
-{
-    
-}
+var userId = 0;

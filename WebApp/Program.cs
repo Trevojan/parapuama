@@ -15,7 +15,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseAuthentication();
+
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
@@ -26,7 +29,7 @@ app.MapRazorPages();
 
 //Declarar todas as tabelas aqui.
 Gather g = new();
-g.forward("SELECT * FROM callDbo;");
+g.Forward("SELECT * FROM callDbo;");
 //g.SetTables();
 
 app.Run();
