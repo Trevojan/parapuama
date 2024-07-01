@@ -5,9 +5,9 @@ namespace WebApp.Database
     public class Out
     {
         public List<int> Session = [];
-        public int Id { get; set; }
+        //public int Id { get; set; }
 
-        public int CallDoLogin(string lo, string se)
+        public bool CallDoLogin(string lo, string se)
         {
             try
             {
@@ -17,28 +17,27 @@ namespace WebApp.Database
                 con.Open();
                 SqlCommand cmd = new(query, con);
                 var reader = cmd.ExecuteReader();
-
                 if (reader.Read())
                 {
                     int log = reader.GetInt32(0);
                     reader.Close();
 
-                    query = $"INSERT INTO tbOnline VALUES({0},{log},{1})";
+                    query = $"INSERT INTO tbOnline VALUES({log},{1})";
                     cmd = new(query, con);
+                    cmd.ExecuteNonQuery();
 
                     query = $"SELECT idOnline FROM tbOnline WHERE colLogado = {log}";
                     cmd = new(query, con);
                     reader = cmd.ExecuteReader();
-
                     if (reader.Read()) { Session.Add(reader.GetInt32(0)); }
 
-                    return Session.Last();
+                    return true;
                 }
-                return 0;
+                return false;
             }
             catch (SqlException e)
             {
-                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                Console.WriteLine("Erro: " + e);
                 throw;
             }
         }

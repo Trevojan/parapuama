@@ -2,13 +2,15 @@
 @model WebApp.Models.ModelLogin
 @{
     ViewData["Title"] = "Entrar";
-    Database.Out @out = new();
-    var Id = @out.Id;
+    //Database.Out @out = new();
+    //var Id = @out.Id;
 }
 
+<!--
 <script>
-    userId = @Id;
+    userId = Id;
 </script>
+-->
 
 <div class="container-fluid d-flex justify-content-center pt-5">
         <div class="card col-9 border border-white">
@@ -17,29 +19,29 @@
                     <h4 id="idCardTitulo" class="card-title p-2" aria-describedby="idCardSub">Entrar</h4>
                     <small id="idCardSub" class="p-4">Insira seus dados para acessar sua conta ou crie uma nova!</small>
                 </div>
-                <div class="container d-flex justify-content-center mt-5">
-                    <form class="col-6" method="POST">
-                        <div class="mb-3 row">
-                            <input type="text" class="form-control text-center" id="idLogin" placeholder="Login" asp-for="Login" />
-                        </div>
-                        <div class="mb-1 row">
-                            <input type="password" class="form-control text-center" id="idSenha" placeholder="Senha" asp-for="Senha" />
-                        </div>
-                        <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
-                            <span>________________________________________________________________</span>
-                        </div>
-                        <div class="mt-3 mb-3 row">
+            <div class="container d-flex justify-content-center mt-5">
+                <form class="col-6" method="POST">
+                    <div class="mb-3 row">
+                        <input type="text" class="form-control text-center" id="idLogin" placeholder="Login" asp-for="Login" />
+                    </div>
+                    <div class="mb-1 row">
+                        <input type="password" class="form-control text-center" id="idSenha" placeholder="Senha" asp-for="Senha" />
+                    </div>
+                    <div class="text-center row text-black-50 mt-3 mb-4 user-select-none">
+                        <span>________________________________________________________________</span>
+                    </div>
+                    <div class="mt-3 mb-3 row">
                         <button class="btn btn-primary" type="submit" asp-page="./LoginErro">
                                 Acessar
                         </button>
                     </div>
-                        <div class="mb-3 row">
-                            <a class="btn btn-outline-primary" asp-page="../NovaConta/novaconta">
-                                Criar conta
-                            </a>
-                        </div>
-                    </form>
-                </div>
+                    <div class="mb-3 row">
+                        <a class="btn btn-outline-primary" asp-page="../NovaConta/novaconta">
+                            Criar conta
+                        </a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+</div>

@@ -2,7 +2,16 @@
 @model WebApp.Models.ModelPortfolio
 @{
     ViewData["Title"] = "Portfolio";
+
+    Database.Out @out = new();
+    var go = @out.CallLoginCheck(0);
 }
+
+<script src="~/js/site.js"></script>
+<script>
+    var go = String("@go").toLowerCase();
+    logOn(go);
+</script>
 
 <partial name="Portfolio/Abas/_AbasInicio" />
 
