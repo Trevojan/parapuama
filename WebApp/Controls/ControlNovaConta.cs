@@ -9,7 +9,6 @@ namespace WebApp.Controls
         public IActionResult OnPost(ModelNovaConta m)
         {
             Database.Gather g = new();
-            Console.WriteLine($"NmLogin = {m.NmLogin}, NmSenha1 = {m.NmSenha1},NmSenha2 = {m.NmSenha2} NmEmail = {m.NmEmail}, NmApelido = {m.NmApelido}");
 
             if (m.NmLogin != null)
             {
