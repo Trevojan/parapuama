@@ -134,6 +134,14 @@ namespace WebApp.Database
                 con.Open();
                 SqlCommand cmd = new(query, con);
                 cmd.ExecuteNonQuery();
+
+
+                query = $"INSERT INTO tbOnline VALUES(@@IDENTITY)";
+                con.Open();
+                cmd = new(query, con);
+                cmd.ExecuteNonQuery();
+
+
                 Console.WriteLine("Usuário adicionado com sucesso.");
                 return true;
             }

@@ -4,7 +4,9 @@
     ViewData["Title"] = "Portfolio";
 
     Database.Out @out = new();
-    var go = @out.CallLoginCheck(0);
+    Database.Gather g = new();
+    g.ForwardOnline();
+    var go = @out.CallLoginCheck(5);
 }
 
 <script src="~/js/site.js"></script>

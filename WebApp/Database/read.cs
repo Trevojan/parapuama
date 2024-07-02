@@ -138,6 +138,32 @@ namespace WebApp.Database
                 throw;
             }
         }
+
+        public object[] CallFavoritos(int id)
+        {
+            object[] obj = [];
+            try
+            {
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+                string query = $"SELECT idFavorito FROM tbFavoritos WHERE idUsuario = {id}";
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new(query, con);
+                var reader = cmd.ExecuteReader();
+
+                for (int i = 0; i < reader.FieldCount; i++)
+                {
+                    obj.Append(reader.GetValue(i));
+                }
+                return obj;
+            }
+            catch (SqlException e)
+            {
+                Console.WriteLine("Erro: " + e);
+                throw;
+            }
+
+        }
     }
 
 }

@@ -1,0 +1,10 @@
+﻿@page "/meusprojetos"
+@model Models.MeusProjetosModel
+@{
+    Database.Out @out = new();
+    Database.Gather g = new();
+    @out.Session.Add(1);
+    g.ForwardOnline();
+    var go = @out.CallLoginCheck(@out.Session.Last());
+}
+
