@@ -1,14 +1,18 @@
-﻿@page "/projetos"
+﻿@page "/projetos/{id}/{proj}"
 @model WebApp.Models.ModelProjetos
 @{
     ViewData["Title"] = "Projeto";
 
-    /*
-      Database.Out @out = new();
-      if (!@out.CallLoginCheck(@out.Id))
-      { RedirectToPage("../Entrar/LoginRe"); }
-    */
+    Database.Out @out = new();
+    Database.Gather g = new();
+    var go = g.ForwardOnline(Model.Id);
 }
+
+<script src="~/js/site.js"></script>
+<script>
+    var go = String("@go").toLowerCase();
+    logOn(go);
+</script>
 
 <div class="container-fluid">
     <partial name="../Projetos/Conteudo/_NavProjetos" />

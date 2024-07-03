@@ -5,34 +5,30 @@ namespace WebApp.Database
     public class Out
     {
         public List<int> Session = [];
-        //public int Id { get; set; }
 
-        public bool CallDoLogin(string lo, string se)
+        public bool CallDoLogin(string lo, string se, out int id)
         {
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = $"SELECT idUsuario FROM tbUsuarios WHERE '{lo}' = colLogin AND '{se}' = colSenha";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE colLogin = '{lo}' AND colSenha = '{se}';";
                 using SqlConnection con = new(connectionString);
                 con.Open();
                 SqlCommand cmd = new(query, con);
                 var reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    int log = reader.GetInt32(0);
+                    id = reader.GetInt32(0);
                     reader.Close();
 
-                    query = $"INSERT INTO tbOnline VALUES({log},{1})";
+                    query = $"UPDATE tbUsuarios SET colOnline = 1 WHERE idUsuario = {id};";
                     cmd = new(query, con);
                     cmd.ExecuteNonQuery();
 
-                    query = $"SELECT idOnline FROM tbOnline WHERE colLogado = {log}";
-                    cmd = new(query, con);
-                    reader = cmd.ExecuteReader();
-                    if (reader.Read()) { Session.Add(reader.GetInt32(0)); }
-
                     return true;
                 }
+
+                id = 0;
                 return false;
             }
             catch (SqlException e)
@@ -49,16 +45,6 @@ namespace WebApp.Database
                 return false;
             }
             return true;
-        }
-
-        public bool CallLoginCheck(int id)
-        {
-            if (Session.Contains(id))
-            {
-                return true;
-            }
-            
-            return false;
         }
 
         public bool CallLogout(int id)
@@ -90,7 +76,7 @@ namespace WebApp.Database
                 throw;
             }
         }
-        
+
         public bool CallUniqueEmail(string em)
         {
             try
@@ -165,6 +151,4 @@ namespace WebApp.Database
 
         }
     }
-
 }
-

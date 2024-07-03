@@ -1,12 +1,11 @@
-@page "/portfolio"
+@page "/portfolio/{id}"
 @model WebApp.Models.ModelPortfolio
 @{
     ViewData["Title"] = "Portfolio";
 
     Database.Out @out = new();
     Database.Gather g = new();
-    g.ForwardOnline();
-    var go = @out.CallLoginCheck(5);
+    var go = g.ForwardOnline(Model.Id);
 }
 
 <script src="~/js/site.js"></script>

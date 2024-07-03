@@ -13,15 +13,22 @@
 
 function logOn(go)
 {
-    if (go)
-    {
-        var navProj = document.getElementById("navProjetos");
-        var navConta = document.getElementById("navConta");
-        var navSair = document.getElementById("navSair");
+    var navProj = document.getElementById("navProjetos");
+    var navConta = document.getElementById("navConta");
+    var navSair = document.getElementById("navSair");
 
+    if (go === true)
+    {
         navProj.className = "btn btn-outline-primary ms-2 me-2";
         navConta.className = "d-none btn btn-outline-primary ms-2 me-2";
         navSair.className = "btn btn-outline-primary ms-2 me-2";
         navLogin.className = "d-none btn btn-outline-primary ms-2 me-2";
+    }
+    else
+    {
+        navProj.className = "d-none btn btn-outline-primary ms-2 me-2";
+        navConta.className = "btn btn-outline-primary ms-2 me-2";
+        navSair.className = "d-none btn btn-outline-primary ms-2 me-2";
+        navLogin.className = "btn btn-outline-primary ms-2 me-2";
     }
 }

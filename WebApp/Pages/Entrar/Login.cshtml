@@ -2,11 +2,6 @@
 @model WebApp.Models.ModelLogin
 @{
     ViewData["Title"] = "Entrar";
-    Database.Out @out = new();
-    Database.Gather g = new();
-    @out.Session.Add(1);
-    g.ForwardOnline();
-    var go = @out.CallLoginCheck(5);
 }
 
 <!--

@@ -1,9 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WebApp.Models
 {
     public class ModelPortfolio : PageModel
     {
+        [BindProperty]
+        public int Id { get; set; }
+
+        public void OnGet(int id)
+        {
+            Database.Gather g = new();
+            g.ForwardOnline(id);
+        }
+
+        public IActionResult Logout(int id)
+        {
+            Database.Gather g = new();
+            g.ForwardOffline(id);
+            return RedirectToPage($"../");
+        }
+
         public string TituloEscopo(string t)
         {
             switch (t)
