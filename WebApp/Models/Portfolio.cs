@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using WebApp.Database;
 
 namespace WebApp.Models
 {
@@ -10,8 +11,8 @@ namespace WebApp.Models
 
         public void OnGet(int id)
         {
-            Database.Gather g = new();
-            g.ForwardOnline(id);
+            Gather g = new();
+            _ = g.ForwardOnline(id);
         }
 
         public IActionResult Logout(int id)
@@ -100,6 +101,8 @@ namespace WebApp.Models
                     return "Insights de desenvolvimento!";
                 case "lancamento":
                     return "Data de lançamento anunciada!";
+                default:
+                    break;
             }
             return c;
         }
@@ -122,7 +125,7 @@ namespace WebApp.Models
                     break;
             }
             return s;
-        }
 
+        }
     }
 }

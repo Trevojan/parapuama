@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Html;
 using Microsoft.Data.SqlClient;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebApp.Database
 {
@@ -63,12 +62,17 @@ namespace WebApp.Database
                 con.Open();
                 SqlCommand cmd = new(query, con);
                 var reader = cmd.ExecuteReader();
-                if (reader.GetInt32(0) != 0)
+                Console.WriteLine($"aaaaaaaaaaaaaaaaa {reader["colOnline"].ToString()} aaaaaaaaaaaaaaaaaaaaaaa");
+
+                if (int.Parse(reader["colOnline"].ToString()) != 0)
                 {
                     return id;
                 }
-
-                return 0;
+                
+                else
+                {
+                    return id;
+                }
             }
             catch (SqlException e)
             {
@@ -86,7 +90,7 @@ namespace WebApp.Database
                 using SqlConnection con = new(connectionString);
                 con.Open();
                 SqlCommand cmd = new(query, con);
-                var reader = cmd.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();
             }
             catch (Exception e)
             {
