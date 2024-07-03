@@ -2,17 +2,14 @@
 @model WebApp.Models.ModelPortfolio
 @{
     ViewData["Title"] = "Portfolio";
-
-    Database.Out @out = new();
-    Database.Gather g = new();
-    var go = g.ForwardOnline(Model.Id);
 }
 
 <script src="~/js/site.js"></script>
 <script>
-    var go = String("@go").toLowerCase();
-    logOn(go);
+    /*var go = String("go").toLowerCase();
+    logOn(go);*/
 </script>
+
 
 <partial name="Portfolio/Abas/_AbasInicio" />
 

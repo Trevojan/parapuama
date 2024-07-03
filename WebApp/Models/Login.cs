@@ -6,6 +6,9 @@ namespace WebApp.Models
     public class ModelLogin : PageModel
     {
         [BindProperty]
+        public int Id { get; set; }
+
+        [BindProperty]
         public required string Login { get; set; }
         [BindProperty]
         public required string Senha { get; set; }
@@ -13,11 +16,13 @@ namespace WebApp.Models
         public IActionResult OnPost()
         {
             Database.Out @out = new();
-            bool redr = @out.CallDoLogin(Login, Senha, out int id);
+            int id;
+            bool redr = @out.CallDoLogin(Login, Senha, out id);
+            Id = id;
             switch (redr)
             {
                 case true:
-                    return RedirectToPage($"../Portfolio/Portfolio/{id}");
+                    return RedirectToPage($"../Portfolio/portfolio", new { id = Id });
                 case false:
                     return RedirectToPage("./LoginErro");
             }

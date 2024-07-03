@@ -3,16 +3,12 @@
 @model ControlInicio
 @{
     ViewData["Title"] = "Inicio";
-    Database.Out @out = new();
-    Database.Gather g = new();
 }
 
 <script src="~/js/site.js"></script>
 <script>
     var go = String("False").toLowerCase();
     logOn(go);
-
-    console.log("chegou até aqui.");
 </script>
 
 <div class="mb-5 row justify-content-center align-items-center g-2">
