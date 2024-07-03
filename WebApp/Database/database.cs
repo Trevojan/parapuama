@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Html;
 using Microsoft.Data.SqlClient;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebApp.Database
 {
@@ -28,7 +29,6 @@ namespace WebApp.Database
 
         public bool ForwardUsuario(string lo, string se1, string se2, string em, string ap)
         {
-            Console.WriteLine("Forwarded: Usuário");
             Out @out = new();
             In @in = new();
             ap ??= lo;
@@ -37,16 +37,12 @@ namespace WebApp.Database
             if (!checkSe)
             {
                 bool checkLo = @out.CallUniqueLogin(lo);
-                Console.WriteLine("Chamou o login");
-                Console.WriteLine("Login: " + lo);
                 if (checkLo)
                 {
                     bool checkEm = @out.CallUniqueEmail(em);
-                    Console.WriteLine("Chamou o e-mail");
                     if (checkEm)
                     {
                         bool checkAp = @out.CallUniqueApelido(ap);
-                        Console.WriteLine("Chamou o apelido");
                         if (checkAp)
                         {
                             return @in.NovoUsuario(lo, se1, em, ap);
@@ -57,35 +53,44 @@ namespace WebApp.Database
             return false;
         }
 
-        public void ForwardOnline()
+        public int ForwardOnline(int id)
         {
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = "SELECT * FROM tbOnline";
+                string query = $"SELECT colOnline FROM tbUsuarios WHERE idUsuario = {id}";
                 using SqlConnection con = new(connectionString);
                 con.Open();
                 SqlCommand cmd = new(query, con);
                 var reader = cmd.ExecuteReader();
-                if (reader.Read())
+                if (reader.GetInt32(0) != 0)
                 {
-                    Out @out = new();
-                    object[] vals = new object[reader.FieldCount];
-                    reader.GetValues(vals);
-
-                    foreach (object val in vals)
-                    {
-                        if (val != null)
-                        {
-                            @out.Session.Add(Convert.ToInt32(val));
-                        }
-                    }
-
+                    return id;
                 }
+
+                return 0;
             }
             catch (SqlException e)
             {
-                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                Console.WriteLine("Erro: " + e);
+                throw;
+            }
+        }
+
+        public void ForwardOffline(int id)
+        {
+            try
+            {
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+                string query = $"UPDATE tbUsuarios SET colOnline = 0 WHERE idUsuario = {id};";
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new(query, con);
+                var reader = cmd.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Erro: {e}");
                 throw;
             }
         }

@@ -5,10 +5,15 @@
     ViewData["Title"] = "Inicio";
     Database.Out @out = new();
     Database.Gather g = new();
-    @out.Session.Add(1);
-    g.ForwardOnline();
-    var go = @out.CallLoginCheck(@out.Session.Last());
 }
+
+<script src="~/js/site.js"></script>
+<script>
+    var go = String("False").toLowerCase();
+    logOn(go);
+
+    console.log("chegou até aqui.");
+</script>
 
 <div class="mb-5 row justify-content-center align-items-center g-2">
     <div class="ms-4 col col-3">
@@ -18,7 +23,7 @@
         <partial name="Inicio/_InicioBemVindo" />
     </div>
 </div>
-    <partial name="Inicio/_InicioRecursos" />
+<partial name="Inicio/_InicioRecursos" />
 <div class="mb-5 row justify-content-center align-items-center g-2">
 </div>
 

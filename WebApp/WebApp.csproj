@@ -8,10 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\ModelSair.cshtml.cs" />
     <Compile Remove="Pages\Inicio\_NavIcone.cshtml.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Models\ModelSair.cshtml" />
     <Content Remove="Pages\Inicio\_InicioAbasConteudo.cshtml" />
     <Content Remove="Pages\Inicio\_Parcerias1.cshtml" />
     <Content Remove="Pages\Portfolio\Favoritos\_AbasConteudo.cshtml" />
