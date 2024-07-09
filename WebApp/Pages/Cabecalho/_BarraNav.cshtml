@@ -1,6 +1,4 @@
-﻿@{
-    var Go = 0;
-}
+﻿@{  }
 
 <header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
@@ -11,12 +9,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
-                <a class="d-none btn btn-outline-primary ms-2 me-2" id="navProjetos" asp-page="../Portfolio/meusprojetos">Meus projetos</a>
+                <a class="d-none btn btn-outline-primary ms-2 me-2" id="navProjetos" asp-page="../Portfolio/portfolio/@ViewBag.Id">Meus projetos</a>
                 <a class="btn btn-outline-primary ms-2 me-2" id="navConta" asp-page="../NovaConta/novaconta">Nova conta</a>
                 <a class="d-none btn btn-outline-primary ms-2 me-2" id="navSair" data-bs-toggle="modal" data-bs-target="#ModalSair" href="#">Sair</a>
                 <a class="btn btn-outline-primary ms-2 me-2" id="navLogin" asp-page="../Entrar/login">Login</a>
                 <a class="btn btn-outline-primary ms-2 me-2" id="navSobre" asp-page="../Sobre/sobre">Sobre</a>
-                @Html.PartialAsync("Sair/_ModalSair", Go)
+                <partial name="../Sair/_ModalSair" />
             </div>
         </div>
     </nav>

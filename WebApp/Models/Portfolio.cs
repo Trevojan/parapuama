@@ -8,6 +8,7 @@ namespace WebApp.Models
     {
         [BindProperty]
         public int Id { get; set; }
+        public int Proj { get; set; }
 
         public void OnGet(int id)
         {

@@ -1,15 +1,11 @@
-﻿function LimparNovaConta()
+﻿const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+function LimparNovaConta()
 {
     var form = document.getElementById("formNovaConta");
     form.reset();
 }
-
-// Tentativa de criar um sistema manual de login, mas reconheci a
-// dificuldade no meio do caminho. Ponderei sobre usar o
-// authentication do próprio Razor, mas também desisti devido
-// ao tempo.
-
-/* var userId = 0;*/
 
 function logOn(go)
 {

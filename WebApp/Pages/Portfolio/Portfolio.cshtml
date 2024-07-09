@@ -2,15 +2,23 @@
 @model WebApp.Models.ModelPortfolio
 @{
     ViewData["Title"] = "Portfolio";
-    int Go = (RouteData.Values["id"] != null) ? (int)RouteData.Values["id"] : 0;
+
+    int Go = 0;
+    if (RouteData != null)
+    {
+        Go = (RouteData.Values["id"] != null) ? Int32.Parse(RouteData.Values["id"].ToString()) : 0;
+    }
+
+    ViewBag.Id = (int)Go;
 }
+
+<partial name="../Cabecalho/_BarraNav" />
 
 <script src="~/js/site.js"></script>
 <script>
     var go = @Go;
     logOn(go);
 </script>
-
 
 <partial name="Portfolio/Abas/_AbasInicio" />
 
