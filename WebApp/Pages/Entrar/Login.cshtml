@@ -2,13 +2,23 @@
 @model WebApp.Models.ModelLogin
 @{
     ViewData["Title"] = "Entrar";
+
+    int Go = 0;
+    if (RouteData != null)
+    {
+        Go = (RouteData.Values["id"] != null) ? (int)RouteData.Values["id"] : 0;
+    }
+
+    ViewBag.Id = (int)Go;
 }
 
-<!--
+<partial name="../Cabecalho/_BarraNav" />
+
+<script src="~/js/site.js"></script>
 <script>
-    userId = Id;
+    var go = @Go;
+    logOn(go);
 </script>
--->
 
 <div class="container-fluid d-flex justify-content-center pt-5">
     <div class="card col-9 border border-white">

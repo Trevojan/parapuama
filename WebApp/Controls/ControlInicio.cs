@@ -9,12 +9,8 @@ namespace WebApp.Controls
 
         public IActionResult Index()
         {
+            Id = 0;
             return View();
         }
-
-        /*public void OnGet(int id)
-        {
-            Id = id;
-        }*/
     }
 }

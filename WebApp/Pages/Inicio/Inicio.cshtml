@@ -3,9 +3,16 @@
 @model ControlInicio
 @{
     ViewData["Title"] = "Inicio";
-    int Go = (RouteData.Values["id"] != null) ? (int)RouteData.Values["id"] : 1;
-    Model.Id = Go;
+    int Go = 0;
+    if (RouteData != null)
+    {
+        Go = (RouteData.Values["id"] != null) ? Int32.Parse(RouteData.Values["id"].ToString()) : 0;
+    }
+
+    ViewBag.Id = (int)Go;
 }
+
+<partial name="../Cabecalho/_BarraNav" />
 
 <script src="~/js/site.js"></script>
 <script>
