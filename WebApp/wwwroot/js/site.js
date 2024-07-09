@@ -13,22 +13,24 @@
 
 function logOn(go)
 {
+    console.log("chamou");
     var navProj = document.getElementById("navProjetos");
     var navConta = document.getElementById("navConta");
+    var navLogin = document.getElementById("navLogin");
     var navSair = document.getElementById("navSair");
 
-    if (go === true)
+    if (go !== 0)
     {
-        navProj.className = "btn btn-outline-primary ms-2 me-2";
-        navConta.className = "d-none btn btn-outline-primary ms-2 me-2";
-        navSair.className = "btn btn-outline-primary ms-2 me-2";
-        navLogin.className = "d-none btn btn-outline-primary ms-2 me-2";
+        navProj.classList.remove("d-none");
+        navSair.classList.remove("d-none");
+        navConta.classList.add("d-none");
+        navLogin.classList.add("d-none");
     }
     else
     {
-        navProj.className = "d-none btn btn-outline-primary ms-2 me-2";
-        navConta.className = "btn btn-outline-primary ms-2 me-2";
-        navSair.className = "d-none btn btn-outline-primary ms-2 me-2";
-        navLogin.className = "btn btn-outline-primary ms-2 me-2";
+        navProj.classList.add("d-none");
+        navSair.classList.add("d-none");
+        navConta.classList.remove("d-none");
+        navLogin.classList.remove("d-none");
     }
 }

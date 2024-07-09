@@ -2,12 +2,13 @@
 @model WebApp.Models.ModelPortfolio
 @{
     ViewData["Title"] = "Portfolio";
+    int Go = (RouteData.Values["id"] != null) ? (int)RouteData.Values["id"] : 0;
 }
 
 <script src="~/js/site.js"></script>
 <script>
-    /*var go = String("go").toLowerCase();
-    logOn(go);*/
+    var go = @Go;
+    logOn(go);
 </script>
 
 

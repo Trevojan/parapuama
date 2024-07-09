@@ -1,4 +1,8 @@
-﻿<header>
+﻿@{
+    var Go = 0;
+}
+
+<header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
         <div class="container-fluid">
             <a class="navbar-brand" asp-area="/" asp-page="../Inicio/inicio"> <partial name="Inicio/_NavIcone" /> </a>
@@ -12,7 +16,7 @@
                 <a class="d-none btn btn-outline-primary ms-2 me-2" id="navSair" data-bs-toggle="modal" data-bs-target="#ModalSair" href="#">Sair</a>
                 <a class="btn btn-outline-primary ms-2 me-2" id="navLogin" asp-page="../Entrar/login">Login</a>
                 <a class="btn btn-outline-primary ms-2 me-2" id="navSobre" asp-page="../Sobre/sobre">Sobre</a>
-                <partial name="Sair/_ModalSair" />
+                @Html.PartialAsync("Sair/_ModalSair", Go)
             </div>
         </div>
     </nav>

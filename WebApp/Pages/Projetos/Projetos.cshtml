@@ -2,14 +2,13 @@
 @model WebApp.Models.ModelProjetos
 @{
     ViewData["Title"] = "Projeto";
-
-    Database.Gather g = new();
-    var go = g.ForwardOnline(Model.Id);
+    int Go = (RouteData.Values["id"] != null) ? (int)RouteData.Values["id"] : 0;
+    Model.Id = (int)Go;
 }
 
 <script src="~/js/site.js"></script>
 <script>
-    var go = String("@go").toLowerCase();
+    var go = @Go;
     logOn(go);
 </script>
 

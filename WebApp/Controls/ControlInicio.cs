@@ -12,9 +12,9 @@ namespace WebApp.Controls
             return View();
         }
 
-        public void OnGet(int id)
+        /*public void OnGet(int id)
         {
             Id = id;
-        }
+        }*/
     }
 }

@@ -61,17 +61,17 @@ namespace WebApp.Database
                 using SqlConnection con = new(connectionString);
                 con.Open();
                 SqlCommand cmd = new(query, con);
-                var reader = cmd.ExecuteReader();
-                Console.WriteLine($"aaaaaaaaaaaaaaaaa {reader["colOnline"].ToString()} aaaaaaaaaaaaaaaaaaaaaaa");
+                var reader = cmd.ExecuteScalar();
+                int online = (byte)reader;
 
-                if (int.Parse(reader["colOnline"].ToString()) != 0)
+                if (online != 0)
                 {
                     return id;
                 }
                 
                 else
                 {
-                    return id;
+                    return 0;
                 }
             }
             catch (SqlException e)

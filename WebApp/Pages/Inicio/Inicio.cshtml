@@ -3,11 +3,13 @@
 @model ControlInicio
 @{
     ViewData["Title"] = "Inicio";
+    int Go = (RouteData.Values["id"] != null) ? (int)RouteData.Values["id"] : 1;
+    Model.Id = Go;
 }
 
 <script src="~/js/site.js"></script>
 <script>
-    var go = String("False").toLowerCase();
+    var go = @Go;
     logOn(go);
 </script>
 
