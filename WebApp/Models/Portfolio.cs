@@ -17,7 +17,7 @@ namespace WebApp.Models
 
         public IActionResult Logout(int id)
         {
-            Database.Gather g = new();
+            Gather g = new();
             g.ForwardOffline(id);
             return RedirectToPage($"../");
         }
