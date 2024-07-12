@@ -3,28 +3,22 @@
   "WorkspaceRootPath": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\pages\\portfolio\\favoritos\\_favconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\portfolio\\favoritos\\_favconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\pages\\portfolio\\participando\\_parconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__USERS_EROS_BENKERT_DOCUMENTS_GITHUB_PARAPUAMA_WEBAPP_BIN_DEBUG_NET8.0_DBPARAPUAMA.MDF/True/SqlTable/dbo.tbProjetos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__USERS_EROS_BENKERT_DOCUMENTS_GITHUB_PARAPUAMA_WEBAPP_BIN_DEBUG_NET8.0_DBPARAPUAMA.MDF/True/SqlTable/dbo.tbParticipantes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\pages\\portfolio\\favoritos\\_favconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\portfolio\\favoritos\\_favconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\pages\\portfolio\\participando\\_parconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\portfolio\\participando\\_parconteudo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\pages\\projetos\\projetos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\projetos\\projetos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\pages\\cabecalho\\_barranav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\cabecalho\\_barranav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\pages\\inicio\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\inicio\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,80 +40,61 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.tbParticipantes [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__USERS_EROS_BENKERT_DOCUMENTS_GITHUB_PARAPUAMA_WEBAPP_BIN_DEBUG_NET8.0_DBPARAPUAMA.MDF/True/SqlTable/dbo.tbParticipantes.sql",
+              "ToolTip": "dbo.tbParticipantes [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-12T20:02:44.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "database.cs",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
-              "RelativeDocumentMoniker": "Database\\database.cs",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
-              "RelativeToolTip": "Database\\database.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAQwKsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T19:47:55.914Z",
+              "Title": "dbo.tbProjetos [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/D__USERS_EROS_BENKERT_DOCUMENTS_GITHUB_PARAPUAMA_WEBAPP_BIN_DEBUG_NET8.0_DBPARAPUAMA.MDF/True/SqlTable/dbo.tbProjetos.sql",
+              "ToolTip": "dbo.tbProjetos [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-07-12T20:02:36.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_FavConteudo.cshtml",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "RelativeToolTip": "Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T19:46:58.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ParConteudo.cshtml",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
-              "RelativeToolTip": "Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T19:42:43.729Z",
+              "Title": "database.cs",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
+              "RelativeDocumentMoniker": "Database\\database.cs",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
+              "RelativeToolTip": "Database\\database.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAgwLQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:57:48.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Projetos.cshtml",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Projetos\\Projetos.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Projetos\\Projetos.cshtml",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Projetos\\Projetos.cshtml",
-              "RelativeToolTip": "Pages\\Projetos\\Projetos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Title": "_FavConteudo.cshtml",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
+              "RelativeToolTip": "Pages\\Portfolio\\Favoritos\\_FavConteudo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T19:40:34.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Inicio.cshtml",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Inicio\\Inicio.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Inicio\\Inicio.cshtml",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Inicio\\Inicio.cshtml",
-              "RelativeToolTip": "Pages\\Inicio\\Inicio.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T19:39:53.096Z",
+              "WhenOpened": "2024-07-11T17:38:49.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_BarraNav.cshtml",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Cabecalho\\_BarraNav.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Cabecalho\\_BarraNav.cshtml",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Cabecalho\\_BarraNav.cshtml",
-              "RelativeToolTip": "Pages\\Cabecalho\\_BarraNav.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAADAAAA",
+              "Title": "_ParConteudo.cshtml",
+              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
+              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
+              "RelativeToolTip": "Pages\\Portfolio\\Participando\\_ParConteudo.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-09T19:25:04.108Z",
+              "WhenOpened": "2024-07-10T19:42:43.729Z",
               "EditorCaption": ""
             }
           ]
