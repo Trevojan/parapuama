@@ -7,9 +7,7 @@
                 <h3 id="idCardSair" class="card-title pt-2" aria-describedby="idSubSair">Logout</h3>
                 <small id="idSubSair" class="pt-2 text-muted">Deseja realmente sair de sua conta?</small>
                 <div class="card-body d-flex justify-content-center pt-4">
-                    <form>
-                        <button type="submit" class="btn btn-primary me-5 col-12" data-bs-dismiss="modal" asp-action="@oout.CallLogout(ViewBag.Id)">Sim, desejo sair</button>
-                    </form>
+                    <a class="btn btn-primary me-5 col-4" href="/entrar" asp-action="@oout.CallLogout(ViewBag.Id)">Sim, desejo sair</a>
                     <button type="button" class="ms-3 btn btn-secondary col-4" data-bs-dismiss="modal">Cancelar</button>
                 </div>
             </div>

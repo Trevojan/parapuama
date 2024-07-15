@@ -1,4 +1,8 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace WebApp.Database
 {
@@ -47,9 +51,26 @@ namespace WebApp.Database
             return true;
         }
 
-        public bool CallLogout(int id)
+        public IActionResult CallLogout(int id)
         {
-            return Session.Contains(id);
+            try
+            {
+                string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+                string query = $"UPDATE tbUsuarios SET colOnline = 0 WHERE idUsuario = @id";
+
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new(query, con);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+
+                return new RedirectToPageResult("/");
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                throw;
+            }
         }
 
         public bool CallUniqueLogin(string lo)
@@ -106,7 +127,7 @@ namespace WebApp.Database
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query = $"SELECT idUsuario FROM tbUsuarios WHERE '{ap}' = colApelido";
+                string query = $"SELECT idUsuario FROM tbUsuarios WHERE colApelido = '{ap}';";
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
                     con.Open();

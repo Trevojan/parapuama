@@ -14,6 +14,11 @@ namespace WebApp.Models
         {
             Id = id;
             Proj = proj;
+            if (Proj == 0)
+            {
+
+                Forward
+            }
         }
     }
 }
