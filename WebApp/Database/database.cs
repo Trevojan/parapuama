@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Html;
 using Microsoft.Data.SqlClient;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace WebApp.Database
 {
@@ -154,80 +152,69 @@ namespace WebApp.Database
             }
         }
 
-        /*
-           try
-            {
-               
-        */
-
         public HtmlString ForwardParticipando(int id)
         {
             try
             {
                 string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
-                string query1 = "SELECT " +
-                                "tbParticipantes.idUsuario," +
-                                "tbProjetos.colNome," +
-                                "tbProjetos.colEscopo," +
-                                "tbUsuarios.colApelido, " +
-                                "tbProjetos.colEstado," +
-                                "tbProjetos.idProjeto " +
-                                "FROM tbParticipantes " +
-                                "LEFT JOIN tbProjetos " +
-                                "ON tbParticipantes.idProjetoP = tbProjetos.idProjeto " +
-                                "LEFT JOIN tbUsuarios " +
-                                "ON tbParticipantes.idUsuario = tbUsuarios.idUsuario " +
-                                "WHERE tbUsuarios.idUsuario = @id;";
-
-                string query2 = "SELECT " +
-                                "tbEncarregado.idUsuario, " +
-                                "tbCargos.colNome, " +
-                                "tbProjetos.idProjeto " +
-                                "FROM tbEncarregado " +
-                                "LEFT JOIN tbCargos " +
-                                "ON tbEncarregado.idEncarregado = tbCargos.idCargo " +
-                                "LEFT JOIN tbProjetos " +
-                                "ON tbEncarregado.idProjetoC = tbProjetos.idProjeto " +
-                                "WHERE tbEncarregado.idUsuario = @id;";
+                string queryNome = "SELECT tbParticipantes.idUsuario, tbProjetos.colNome FROM tbParticipantes LEFT JOIN tbProjetos ON tbProjetos.idProjeto = tbParticipantes.idProjetoP LEFT JOIN tbUsuarios ON tbParticipantes.idUsuario = tbUsuarios.idUsuario WHERE tbParticipantes.idUsuario = @id1;";
+                string queryEscopo = "SELECT tbParticipantes.idUsuario, tbProjetos.colEscopo FROM tbParticipantes LEFT JOIN tbProjetos ON tbProjetos.idProjeto = tbParticipantes.idProjetoP LEFT JOIN tbUsuarios ON tbParticipantes.idUsuario = tbUsuarios.idUsuario WHERE tbParticipantes.idUsuario = @id2;";
+                string queryLider = "SELECT tbParticipantes.idUsuario, tbUsuarios.colApelido FROM tbParticipantes LEFT JOIN tbUsuarios ON tbParticipantes.idUsuario = tbUsuarios.idUsuario WHERE tbParticipantes.idUsuario = @id3;";
+                string queryCargo = "SELECT tbEncarregado.idUsuario, tbCargos.colNome FROM tbEncarregado LEFT JOIN tbCargos ON tbCargos.idCargo = tbEncarregado.idCargo LEFT JOIN tbUsuarios ON tbencarregado.idUsuario = tbUsuarios.idUsuario WHERE tbEncarregado.idUsuario = @id4;";
+                string queryEstado = "SELECT tbParticipantes.idUsuario, tbProjetos.colEstado FROM tbParticipantes LEFT JOIN tbProjetos ON tbProjetos.idProjeto = tbParticipantes.idProjetoP LEFT JOIN tbUsuarios ON tbParticipantes.idUsuario = tbUsuarios.idUsuario WHERE tbParticipantes.idUsuario = @id5;";
 
                 using SqlConnection con = new(connectionString);
                 con.Open();
-                SqlCommand cmd = new(query1, con);
-                cmd.Parameters.AddWithValue("@id", id);
+                SqlCommand cmd = new();
+                cmd.Connection = con;
+                
+                cmd.CommandText = queryNome;
+                cmd.Parameters.AddWithValue("@id1", id);
                 var reader = cmd.ExecuteReader();
-                Console.WriteLine($"o reader possui exatamente {reader.FieldCount} colunas");
 
                 List<string> Nome = [];
-                List<string> Escopo = [];
-                List<string> Lider = [];
-                List<string> Cargo = [];
-                List<string> Estado = [];
-
                 while (reader.Read())
                 {
                     if (!reader.IsDBNull(1))
                     { Nome.Add(item: reader["colNome"].ToString()); }
                     else
                     { Nome.Add("nulo"); }
-                    if (!reader.IsDBNull(2))
+                }
+                reader.Close();
+
+                cmd.CommandText = queryEscopo;
+                cmd.Parameters.AddWithValue("@id2", id);
+                reader = cmd.ExecuteReader();
+
+                List<string> Escopo = [];
+                while (reader.Read())
+                {
+                    if (!reader.IsDBNull(1))
                     { Escopo.Add(item: reader["colEscopo"].ToString()); }
                     else
                     { Escopo.Add("nulo"); }
-                    if (!reader.IsDBNull(3))
+                }
+                reader.Close();
+
+                cmd.CommandText = queryLider;
+                cmd.Parameters.AddWithValue("@id3", id);
+                reader = cmd.ExecuteReader();
+
+                List<string> Lider = [];
+                while (reader.Read())
+                {
+                    if (!reader.IsDBNull(1))
                     { Lider.Add(item: reader["colApelido"].ToString()); }
                     else
                     { Lider.Add("nulo"); }
-                    if (!reader.IsDBNull(4))
-                    { Estado.Add(item: reader["colEstado"].ToString()); }
-                    else
-                    { Estado.Add("nulo"); }
                 }
-                                
                 reader.Close();
 
-                cmd = new(query2, con);
-                cmd.Parameters.AddWithValue("@id", id);
+                cmd.CommandText = queryCargo;
+                cmd.Parameters.AddWithValue("@id4", id);
                 reader = cmd.ExecuteReader();
+
+                List<string> Cargo = [];
                 while (reader.Read())
                 {
                     if (!reader.IsDBNull(1))
@@ -235,27 +222,57 @@ namespace WebApp.Database
                     else
                     { Cargo.Add("nulo"); }
                 }
+                reader.Close();
+
+                cmd.CommandText = queryEstado;
+                cmd.Parameters.AddWithValue("@id5", id);
+                reader = cmd.ExecuteReader();
+
+                List<string> Estado = [];
+                while (reader.Read())
+                {
+                    if (!reader.IsDBNull(1))
+                    { Estado.Add(item: reader["colEstado"].ToString()); }
+                    else
+                    { Estado.Add("nulo"); }
+                }
+                reader.Close();
 
                 string @base = "";
 
-                for (int i = 0; i < Nome.Count - 1; i++)
+                for (int i = 0; i < Nome.Count; i++)
                 {
+                    var n = ""; var e = ""; var l = ""; var c = ""; var s = "";
+
+                    if (i > Nome.Count) { n = "..."; }
+                    else { n = Nome[i].ToString(); }
+                    if (i > Escopo.Count) { e = "..."; }
+                    else { e = Escopo[i].ToString(); }
+                    if (i > Lider.Count) { l = "..."; }
+                    else { l = Lider[i].ToString(); }
+                    if (i > Cargo.Count) { c = "..."; }
+                    else { c = Cargo[i].ToString(); }
+                    if (i > Estado.Count) { s = "..."; }
+                    else { s = Estado[i].ToString(); }
+                    switch (s)
+                    {
+                        case "1": s = "Aberto"; break;
+                        case "0": s = "Fechado"; break;
+                    }
+
                     @base +=
                         "<tr>" +
-                            $"<td>{Nome[i]}</td>" +
-                            $"<td>{Escopo[i]}</td>" +
-                            $"<td>{Lider[i]}</td>" +
-                            $"<td>{Cargo[i]}</td>" +
-                            $"<td>{Estado[i]}</td>" +
+                            $"<td>{n}</td>" +
+                            $"<td>{e}</td>" +
+                            $"<td>{l}</td>" +
+                            $"<td>{c}</td>" +
+                            $"<td>{s}</td>" +
                             "<td>" +
-                                "<button class='btn btn-outline-warning'><i class='bi bi-pencil-square'></i></button>" +
+                                "<button class='btn btn-outline-warning me-1'><i class='bi bi-pencil-square'></i></button>" +
                                 "<button class='btn btn-outline-danger'><i class='bi bi-x'></i></button>" +
                             "</td>" +
                             "</tr>";
                 }
-
-                Console.WriteLine("há exatos: " + Nome.Count + " itens nesta lista");
-                    
                 HtmlString str = new(@base);
                 return str;
             }
@@ -265,6 +282,5 @@ namespace WebApp.Database
                 throw;
             }
         }
-
     }
 }

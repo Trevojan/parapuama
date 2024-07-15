@@ -1,10 +1,50 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 
 namespace WebApp.Database
 {
     public class In
     {
         readonly string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|dbParapuama.mdf;Integrated Security=True;Connect Timeout=10;Encrypt=True";
+
+        public IActionResult NovoProjeto(string projNome, string projDesc, int id)
+        {
+            try
+            {
+                string query = $"INSERT INTO tbProjetos VALUES(0,@projNome,@projDesc,'Desenvolvimento de Software',1)";
+                using SqlConnection con = new(connectionString);
+                con.Open();
+                SqlCommand cmd = new();
+                cmd.Connection = con;
+                cmd.CommandText = query;
+                cmd.Parameters.AddWithValue("@projNome", projNome);
+                cmd.Parameters.AddWithValue("@projDesc", projDesc);
+                cmd.ExecuteNonQuery();
+
+                query = "SELECT idProjeto FROM tbProjetos WHERE idProjeto = SCOPE_IDENTITY()";
+                var reader = cmd.ExecuteReader();
+
+                int projNew = 0;
+                while (reader.Read())
+                {
+                    if (!reader.IsDBNull(1))
+                    { projNew = (int) reader["colNome"]; }
+                    else
+                    { return new RedirectToPageResult($"/portfolio/{id}"); }
+                }
+                reader.Close();
+
+
+
+
+                return new RedirectToPageResult($"/projetos/{}/");
+            }
+            catch (SqlException e)
+            {
+                System.Diagnostics.Debug.WriteLine("Erro: " + e);
+                throw;
+            }
+        }
 
         public void NovoCargo(string ca, string co)
         {

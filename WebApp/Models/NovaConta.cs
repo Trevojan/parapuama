@@ -21,7 +21,6 @@ namespace WebApp.Models
 
         public IActionResult OnPost()
         {
-            Console.WriteLine(NmLogin);
             Gather g = new();
 
             if(g.ForwardUsuario(NmLogin, NmSenha1, NmSenha2, NmEmail, NmApelido))
