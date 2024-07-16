@@ -9,279 +9,279 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp\
+build_property.ProjectDir = C:\Users\eros_benkert\source\repos\parapuama\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\eros_benkert\Documents\GitHub\parapuama\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\eros_benkert\source\repos\parapuama\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Cabecalho/_BarraNav.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Cabecalho/_BarraNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FiZWNhbGhvXF9CYXJyYU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Entrar/Login.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Entrar/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFyXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Entrar/LoginErro.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Entrar/LoginErro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFyXExvZ2luRXJyby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Entrar/LoginRe.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Entrar/LoginRe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFyXExvZ2luUmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Entrar/_ModalEntrar.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Entrar/_ModalEntrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50cmFyXF9Nb2RhbEVudHJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Erro/Error.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Erro/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb1xFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/Inicio.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/Inicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXEluaWNpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_InicioApresentacao.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_InicioApresentacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9JbmljaW9BcHJlc2VudGFjYW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_InicioBemVindo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_InicioBemVindo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9JbmljaW9CZW1WaW5kby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_InicioIcone.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_InicioIcone.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9JbmljaW9JY29uZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_InicioLogo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_InicioLogo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9JbmljaW9Mb2dvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_InicioParcerias.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_InicioParcerias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9JbmljaW9QYXJjZXJpYXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_InicioRecursos.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_InicioRecursos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9JbmljaW9SZWN1cnNvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_MissaoPng.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_MissaoPng.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9NaXNzYW9QbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_NavIcone.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_NavIcone.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9OYXZJY29uZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Inicio/_Parcerias2.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Inicio/_Parcerias2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5pY2lvXF9QYXJjZXJpYXMyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/NovaConta/NovaConta.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/NovaConta/NovaConta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92YUNvbnRhXE5vdmFDb250YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/NovaConta/_CardNovaConta.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/NovaConta/_CardNovaConta.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm92YUNvbnRhXF9DYXJkTm92YUNvbnRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Abas/_AbasCorpo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Abas/_AbasCorpo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEFiYXNcX0FiYXNDb3Jwby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Abas/_AbasEscopos.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Abas/_AbasEscopos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEFiYXNcX0FiYXNFc2NvcG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Abas/_AbasInicio.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Abas/_AbasInicio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEFiYXNcX0FiYXNJbmljaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Abas/_AbasNovidades.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Abas/_AbasNovidades.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEFiYXNcX0FiYXNOb3ZpZGFkZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Abas/_AbasTemas.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Abas/_AbasTemas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEFiYXNcX0FiYXNUZW1hcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Favoritos/_FavConteudo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Favoritos/_FavConteudo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXEZhdm9yaXRvc1xfRmF2Q29udGV1ZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Participando/_ParConteudo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Participando/_ParConteudo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXFBhcnRpY2lwYW5kb1xfUGFyQ29udGV1ZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Portfolio/Portfolio.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Portfolio/Portfolio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvXFBvcnRmb2xpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Abas/_AbasAgenda.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Abas/_AbasAgenda.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQWJhc1xfQWJhc0FnZW5kYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Abas/_AbasIdeias.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Abas/_AbasIdeias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQWJhc1xfQWJhc0lkZWlhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Abas/_AbasLista.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Abas/_AbasLista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQWJhc1xfQWJhc0xpc3RhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Abas/_AbasObjetivos.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Abas/_AbasObjetivos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQWJhc1xfQWJhc09iamV0aXZvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Conteudo/_NavProjetos.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Conteudo/_NavProjetos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ29udGV1ZG9cX05hdlByb2pldG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Conteudo/_ProjetoOpcoes.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Conteudo/_ProjetoOpcoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ29udGV1ZG9cX1Byb2pldG9PcGNvZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Conteudo/_ProjetoUsuario.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Conteudo/_ProjetoUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ29udGV1ZG9cX1Byb2pldG9Vc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalEditarCargo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalEditarCargo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxFZGl0YXJDYXJnby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalEditarQuadro.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalEditarQuadro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxFZGl0YXJRdWFkcm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalExcluirCargo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalExcluirCargo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxFeGNsdWlyQ2FyZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalExcluirParticipante.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalExcluirParticipante.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxFeGNsdWlyUGFydGljaXBhbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalExcluirQuadro.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalExcluirQuadro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxFeGNsdWlyUXVhZHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovaTarefa.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovaTarefa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxOb3ZhVGFyZWZhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovoCargo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovoCargo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxOb3ZvQ2FyZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovoParticipante.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovoParticipante.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxOb3ZvUGFydGljaXBhbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovoQuadro.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Crud/_ModalNovoQuadro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcQ3J1ZFxfTW9kYWxOb3ZvUXVhZHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Novo/_NovoConteudo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Novo/_NovoConteudo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcTm92b1xfTm92b0NvbnRldWRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Novo/_NovoCorpo.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Novo/_NovoCorpo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcTm92b1xfTm92b0NvcnBvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Novo/_NovoIntro.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Novo/_NovoIntro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcTm92b1xfTm92b0ludHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanCargos.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanCargos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5DYXJnb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanFechar.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanFechar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5GZWNoYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanMembros.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanMembros.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5NZW1icm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanPerfil.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanPerfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5QZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanPrazos.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanPrazos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5QcmF6b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanProjeto.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanProjeto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5Qcm9qZXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanQuadros.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanQuadros.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5RdWFkcm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanRodape.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanRodape.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5Sb2RhcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanTemas.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Offcanvas/_OffCanTemas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcT2ZmY2FudmFzXF9PZmZDYW5UZW1hcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/Projetos.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/Projetos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcUHJvamV0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/_Backlog.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/_Backlog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcX0JhY2tsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/_Documentacao.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/_Documentacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcX0RvY3VtZW50YWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/_Entrevistas.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/_Entrevistas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcX0VudHJldmlzdGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Projetos/_Ferramentas.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Projetos/_Ferramentas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamV0b3NcX0ZlcnJhbWVudGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Rodape/_Rodape.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Rodape/_Rodape.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9kYXBlXF9Sb2RhcGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Sair/_ModalSair.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Sair/_ModalSair.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FpclxfTW9kYWxTYWlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Sobre/Sobre.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Sobre/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29icmVcU29icmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Sobre/_Mascote.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Sobre/_Mascote.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29icmVcX01hc2NvdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/_ViewImports.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/_ViewStart.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/eros_benkert/Documents/GitHub/parapuama/WebApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/eros_benkert/source/repos/parapuama/WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lnhnt7yf2

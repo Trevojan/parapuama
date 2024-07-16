@@ -28,16 +28,13 @@ namespace WebApp.Database
                 while (reader.Read())
                 {
                     if (!reader.IsDBNull(1))
-                    { projNew = (int) reader["colNome"]; }
+                    { projNew = (int) reader["idProjeto"]; }
                     else
                     { return new RedirectToPageResult($"/portfolio/{id}"); }
                 }
                 reader.Close();
 
-
-
-
-                return new RedirectToPageResult($"/projetos/{}/");
+                return new RedirectToPageResult($"/projetos/{projNew}/");
             }
             catch (SqlException e)
             {

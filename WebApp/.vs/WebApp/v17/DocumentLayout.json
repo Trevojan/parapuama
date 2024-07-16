@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\database\\insert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:database\\insert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\sair\\_modalsair.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\sair\\_modalsair.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\database\\read.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\pages\\projetos\\novo\\_novointro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:pages\\projetos\\novo\\_novointro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|c:\\users\\eros_benkert\\source\\repos\\parapuama\\webapp\\database\\read.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:database\\read.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|d:\\users\\eros_benkert\\documents\\github\\parapuama\\webapp\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44CC4A9C-2730-4BDE-B16F-FED22AAA42B6}|WebApp.csproj|solutionrelative:database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "read.cs",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\read.cs",
-              "RelativeDocumentMoniker": "Database\\read.cs",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\read.cs",
-              "RelativeToolTip": "Database\\read.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:35:28.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "database.cs",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
-              "RelativeDocumentMoniker": "Database\\database.cs",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\database.cs",
-              "RelativeToolTip": "Database\\database.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAJoAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:27:12.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "insert.cs",
-              "DocumentMoniker": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\insert.cs",
-              "RelativeDocumentMoniker": "Database\\insert.cs",
-              "ToolTip": "D:\\Users\\eros_benkert\\Documents\\GitHub\\parapuama\\WebApp\\Database\\insert.cs",
-              "RelativeToolTip": "Database\\insert.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:26:47.591Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -70,6 +31,43 @@
             {
               "$type": "Bookmark",
               "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_NovoIntro.cshtml",
+              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Projetos\\Novo\\_NovoIntro.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Projetos\\Novo\\_NovoIntro.cshtml",
+              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Projetos\\Novo\\_NovoIntro.cshtml",
+              "RelativeToolTip": "Pages\\Projetos\\Novo\\_NovoIntro.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T23:34:54.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "read.cs",
+              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Database\\read.cs",
+              "RelativeDocumentMoniker": "Database\\read.cs",
+              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Database\\read.cs",
+              "RelativeToolTip": "Database\\read.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwDUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T23:32:58.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ModalSair.cshtml",
+              "DocumentMoniker": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Sair\\_ModalSair.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Sair\\_ModalSair.cshtml",
+              "ToolTip": "C:\\Users\\eros_benkert\\source\\repos\\parapuama\\WebApp\\Pages\\Sair\\_ModalSair.cshtml",
+              "RelativeToolTip": "Pages\\Sair\\_ModalSair.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T23:32:42.166Z",
+              "EditorCaption": ""
             }
           ]
         }
