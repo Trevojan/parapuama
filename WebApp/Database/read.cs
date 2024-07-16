@@ -64,7 +64,7 @@ namespace WebApp.Database
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
 
-                return new RedirectToPageResult("/");
+                return new RedirectToPageResult("/entrar");
             }
             catch (SqlException e)
             {
