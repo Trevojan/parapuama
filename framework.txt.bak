@@ -1,0 +1,68 @@
+-- ARKANE FRAMEWORK --
+
+INPUT
+	For direct inserts into database or insert checking conditions.
+OUTPUT
+	For every forwarding method
+TIE
+	For manipulating foreign keys
+GATHER
+	Retrieve info from [dbo] and do updates depending on parameters.
+	
+	GatherTable(string name, int cols)
+		Turns variables into a table.
+	GatherUpTable
+		Populates a "table" variable into an updating table, with close/open methods.
+			.Readonly() <= doesn't get any update commands.
+			.Fillonly() <= returns 
+			.GetCols(int? * i)
+	GatherTie
+		Turns a variable into an associative table with respective foreign keys.
+	GatherNew
+		Creates a new table-like object and prepares to insert into [dbo].
+	GatherBy(string? item, int? col, table? tb)
+		Returns list of items found within the given parameters, iterating through object.
+			.To(string? item, int? col, table? tb)
+			.Interval(int step)
+			.FirstMatch(string s)
+			.LastMatch(string s)
+			.Type(string s)
+	ForwardSearch(table tb, int col, string item)
+		Send select line to return info about parameter item.
+			.Count()
+			.CountNull()
+			.CountFill()
+			.All()
+			.Col(int)
+			.First()
+			.Last()
+	ForwardEach
+		Retrieve values in a sequence switching through parameters and conditions.
+			.CountCol()
+			.CountNull(int? step)
+			.CountFill(int? step)
+			.All()
+			.Col(int i)
+			.FirstMatch(string)
+			.LastMatch(string)
+	BackwardSearch
+		Search for the last DDL command result.
+	BackwardEach
+		Search for the last result within a interval parameter meeting conditions.
+	NewItem
+		Insert new items into [dbo].[table] directly.
+	NewEach
+		Insert items iterating through an array.
+	NewFor
+		Insert item based in list meeting condition.
+	CallAction
+		Checks condition and updates the database.
+	CallLayer
+		Checks all commands and return a list of changes with rollback option.
+	CallStep
+		Within an exception, checks condition and return a different Call.
+	BindItem
+		Binds a variable as a parameter for a specific dbo object.
+	BindEach
+		Bind iterating items as a parameter for respective dbo objects.
+	
